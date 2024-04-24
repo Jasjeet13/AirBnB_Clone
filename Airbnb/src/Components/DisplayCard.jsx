@@ -2,18 +2,10 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Card, CardContent, Typography, Button, CardMedia } from '@mui/material';
-import './DisplayCard.css'
+import { Card, CardContent, Typography, CardMedia, Grid } from '@mui/material';
+import './DisplayCard.css';
 
-function DisplayCard() {
-  const images = [
-    "https://a0.muscache.com/im/pictures/893a4bed-34c1-400f-b8b9-bb8f482b3211.jpg?im_w=1200",
-    "https://a0.muscache.com/im/pictures/5077d60f-8d0f-4bda-8387-6243977e4ffd.jpg?im_w=720",
-    "https://a0.muscache.com/im/pictures/216de0cb-206e-459d-a128-6a96cdf69dfb.jpg?im_w=720",
-    "https://a0.muscache.com/im/pictures/216de0cb-206e-459d-a128-6a96cdf69dfb.jpg?im_w=720",
-    "https://a0.muscache.com/im/pictures/9634123c-6116-4895-aaf9-ca6d3aa0a5ef.jpg?im_w=720"
-  ];
-
+function DisplayCard({ data }) {
   const PrevArrow = (props) => {
     const { className, style, onClick } = props;
     return (
@@ -42,51 +34,55 @@ function DisplayCard() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
     appendDots: (dots) => (
-        <div style={{ position: "absolute", bottom: "10px", width: "100%" }}>
-          <ul className="custom-dots">
-            {React.Children.toArray(dots).map((dot, index) => (
-              <li key={index} className="custom-dot">{dot}</li>
-            ))}
-          </ul>
-        </div>
-      )
-  
+      <div style={{ position: "absolute", bottom: "10px", width: "100%" }}>
+        <ul className="custom-dots">
+          {React.Children.toArray(dots).map((dot, index) => (
+            <li key={index} className="custom-dot">
+              {dot}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
   };
 
   return (
-    <Card elevation={0} style={{ width: 350, height: 400 }}>
-      <CardContent>
-        <Slider {...settings}>
-          {images.map((image, index) => (
-            <div key={index}>
-              <CardMedia
-                component="img"
-                height="280"
-                image={image}
-                alt={`Image ${index + 1}`}
-                style={{borderRadius:"10px"}}
-              />
-            </div>
-          ))}
-        </Slider>
-        <Typography variant="h6" style={{fontSize:"15px" , fontWeight:"700", margin:"10px"}}>
-            Ko Samui,Thailand <br/>
-        </Typography>
+    <Grid container spacing={3} style={{padding:"40px"}}>
+      {data.map((item, index) => (
+        <Grid item xs={6} sm={3} key={index}>
+          <Card elevation={0} style={{ height: "100%" }}>
+            <CardContent>
+              <Slider {...settings}>
+                {item.images && item.images.map((image, imageIndex) => (
+                  <div key={imageIndex}>
+                    <CardMedia
+                      component="img"
+                      height="280"
+                      image={image}
+                      alt={`Image ${imageIndex + 1}`}
+                      style={{ borderRadius: "10px" }}
+                    />
+                  </div>
+                ))}
+              </Slider>
 
-        <Typography variant="h4" style={{fontSize:"14px" ,margin:"10px",color:"#9fa1a1"}}>
-            On Laem Yai <br/>
-        </Typography>
-
-        <Typography variant="h4" style={{fontSize:"14px" ,margin:"10px",color:"#9fa1a1"}}>
-            <span style={{fontWeight:"700",color:"black"}}>₹68,981</span> night <br/>
-        </Typography>
-
-      </CardContent>
-    </Card>
+              <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "700", margin: "10px" }}>
+                {item.name} <br />
+              </Typography>
+              <Typography variant="h4" style={{ fontSize: "14px", margin: "10px", color: "#9fa1a1" }}>
+                {item.location} <br />
+              </Typography>
+              <Typography variant="h4" style={{ fontSize: "14px", margin: "10px", color: "#9fa1a1" }}>
+                <span style={{ fontWeight: "700", color: "black" }}>{item.price}</span> <br />
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+      ))}
+    </Grid>
   );
 }
 
