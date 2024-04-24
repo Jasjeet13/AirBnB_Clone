@@ -5,7 +5,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch('http://localhost:3000/products')
+    fetch('http://localhost:3000/Beach')
       .then(response => response.json())
       .then(data => {
 
@@ -18,12 +18,12 @@ function App() {
 
   return (
     <div>
-      <h1>Products</h1>
+      <h1>Place</h1>
       <ul>
         {products.map(product => (
           <li key={product.id}>
             <h2>{product.name}</h2>
-            <p>{product.description}</p>
+            <p>{product.location}</p>
             <p>Price: ${product.price}</p>
           </li>
         ))}

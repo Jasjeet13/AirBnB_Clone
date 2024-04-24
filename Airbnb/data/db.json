@@ -1,16 +1,52 @@
 {
-    "products": [
+    "Beach": [
       {
         "id": 1,
-        "name": "Product 1",
-        "price": 10.99,
-        "description": "Description of Product 1"
+        "name": "Ko Samui,Thailand",
+        "location": "On Laem Yai",
+        "price": "₹4,890 night"
       },
       {
         "id": 2,
-        "name": "Product 2",
-        "price": 19.99,
-        "description": "Description of Product 2"
+        "name": "Ka Tao,Thailand",
+        "location": "On Sai Ri Beach",
+        "price": "₹68,981 night"
+      },
+      {
+        "id": 3,
+        "name": "Matara,Sri Lanka",
+        "location": "18 min walk to Polhena Beach",
+        "price": "₹74,950 night"
+      },
+      {
+        "id": 4,
+        "name": "Langkawi,Malaysia",
+        "location": "3 min walk to Tanjung Rhu Beach",
+        "price": "₹13,541 night"
+      },
+      {
+        "id": 5,
+        "name": "Majorda,India",
+        "location": "On Arossim Beach",
+        "price": "₹3,994 night"
+      },
+      {
+        "id": 6,
+        "name": "Bathalaa,Maldives",
+        "location": "On the Beach",
+        "price": "₹41,910 night"
+      },
+      {
+        "id": 7,
+        "name": "Goa,India",
+        "location": "On Candolim Beach",
+        "price": "₹6,410 night"
+      },
+      {
+        "id": 8,
+        "name": "Hikkaduwa,Sri Lanka",
+        "location": "Near Hikkaduwa Beach",
+        "price": "₹4,318 night"
       }
     ],
     "users": [
