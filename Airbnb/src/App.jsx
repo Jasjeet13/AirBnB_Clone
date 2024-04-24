@@ -1,10 +1,10 @@
 import React from 'react'
-import BeachCard from './Components/BeachCard'
+import DisplayCard from './Components/DisplayCard'
 
 function App() {
   return (
     <div>
-      <BeachCard />
+      <DisplayCard />
     </div>
   )
 }
