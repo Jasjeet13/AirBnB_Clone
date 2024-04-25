@@ -5,6 +5,7 @@ import Treehouses from './Components/Treehouses'
 import Amazing_Views from './Components/Amazing_Views'
 import Surfing from './Components/Surfing'
 import Castles from './Components/Castles'
+import Categories from './Components/Categories'
 
 
 function App() {
@@ -20,10 +21,12 @@ function App() {
 
       {/* <Surfing /> */}
 
-      <Castles />
+      {/* <Castles /> */}
 
-      
-      
+      <Categories />
+
+
+          
     </div>
   )
 }

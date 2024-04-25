@@ -1,0 +1,8 @@
+.category{
+    list-style: none;
+    display: flex;
+}
+
+.category li{
+    font-size: 5px;
+}
