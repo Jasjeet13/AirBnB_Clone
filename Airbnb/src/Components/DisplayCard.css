@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-dots {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .custom-dots li {
+    display: inline-block;
+    margin: 0;
+    /* background: white; */
+  }
+
+.slick-dots li button:before{
+    color: white;
+    opacity: 0.5;
+}
+
+
+.slick-dots li.slick-active button:before{
+    color: white;
+    opacity: 1;
+}
+  
