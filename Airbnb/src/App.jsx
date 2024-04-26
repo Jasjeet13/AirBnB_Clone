@@ -1,6 +1,5 @@
 import React from "react";
 import DateCheck from "./Components/DateCheck";
-import DateRangePicker from "./Components/DateRangePicker";
 // import BeachCard from "./Components/BeachCard";
 
 function App() {
@@ -9,6 +8,7 @@ function App() {
       {/* <BeachCard /> */}
       <DateCheck>
         <p className="box-heading">Add dates for prices</p>
+        {/* components inside the box coponent in the check dates will show here */}
       </DateCheck>
     </div>
   );

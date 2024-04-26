@@ -1,0 +1,46 @@
+.toggle-button {
+  background-color: white;
+  border-color: aliceblue;
+  width: 295px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: rgb(211, 211, 211);
+  border-width: 1px;
+  color: rgb(192, 193, 193);
+  margin-top: 5px;
+}
+.toggle-button:hover {
+  border-color: black;
+}
+.category {
+  padding: 10px;
+  display: flex;
+}
+.dropdown-content {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 292px;
+}
+.category-count {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.plus-minus {
+  margin-right: 20px;
+}
+.minus {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+.plus {
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.increase-decrease {
+  margin-left: 70px;
+}
