@@ -1,0 +1,8 @@
+.shadow-box {
+  width: 300px; /* You can adjust the width */
+  height: 200px; /* You can adjust the height */
+  background-color: #da3c3c; /* Background color of the box */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+}

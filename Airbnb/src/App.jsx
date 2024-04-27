@@ -1,15 +1,11 @@
 import React from "react";
+import SearchBox from "./Components/SearchBox";
 import DateCheck from "./Components/DateCheck";
-// import BeachCard from "./Components/BeachCard";
 
 function App() {
   return (
     <div>
-      {/* <BeachCard /> */}
-      <DateCheck>
-        <p className="box-heading">Add dates for prices</p>
-        {/* components inside the box coponent in the check dates will show here */}
-      </DateCheck>
+      <SearchBox />
     </div>
   );
 }

@@ -1,10 +1,6 @@
 import React from "react";
 import "./DateCheck.css";
-import { DatePicker } from "antd";
-import { useState } from "react";
-import moment from "moment";
 import GuestDropdown from "./GuestDropdown";
-const { RangePicker } = DatePicker;
 
 const DateCheck = ({ children }) => {
   const [dates, setDates] = useState([]);

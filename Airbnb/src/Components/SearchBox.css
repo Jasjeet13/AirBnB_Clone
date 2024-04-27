@@ -1,0 +1,49 @@
+.search-box-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 680px;
+  height: 70px;
+  border-radius: 50px;
+  border: 2px solid lightgrey;
+}
+
+.search-box-content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; /* Add padding to space out the boxes */
+}
+
+.vertical-line {
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  width: 1.5px; /* Width of the lines */
+  background-color: lightgrey; /* Color of the lines */
+}
+
+.left {
+  left: 210px; /* Adjust the position of the left line */
+  width: 2px;
+}
+
+.right {
+  right: 210px; /* Adjust the position of the right line */
+}
+
+.box {
+  width: 226px;
+  height: 70px;
+  text-align: center;
+  align-content: center;
+  border-radius: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.box:hover {
+  background-color: rgb(243, 239, 239); /* Change background color on hover */
+}
