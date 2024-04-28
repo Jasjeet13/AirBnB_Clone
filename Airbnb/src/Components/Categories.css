@@ -1,5 +1,5 @@
 .main-container{
-    padding: 30px;
+    padding-top: 20px;
 }
 
 .button{
@@ -24,5 +24,9 @@
     /* opacity: 1; */
     border-bottom: solid 2px rgba(98, 98, 98,0.5);
     background: transparent;
+}
+
+.link{
+    text-decoration: none;
 }
 

@@ -50,7 +50,7 @@ function DisplayCard({ data }) {
   };
 
   return (
-    <Grid container spacing={3} style={{padding:"40px"}}>
+    <Grid container spacing={3} style={{padding:"10px"}}>
       {data.map((item, index) => (
         <Grid item xs={6} sm={3} key={index}>
           <Card elevation={0} style={{ height: "100%" }}>

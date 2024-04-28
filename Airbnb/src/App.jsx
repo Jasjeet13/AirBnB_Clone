@@ -7,30 +7,46 @@ import Surfing from './Components/Surfing'
 import Castles from './Components/Castles'
 import Categories from './Components/Categories'
 import ImageLayout from './Components/ImageLayout'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+
 
 
 function App() {
   return (
-    <div>
-      {/* <DisplayCard /> */}
+    // // <div>
+    //   {/* <DisplayCard /> */}
 
-      {/* <Beach /> */}
+    //   {/* <Beach /> */}
 
-      {/* <Treehouses /> */}
+    //   {/* <Treehouses /> */}
 
-      {/* <Amazing_Views /> */}
+    //   {/* <Amazing_Views /> */}
 
-      {/* <Surfing /> */}
+    //   {/* <Surfing /> */}
 
-      {/* <Castles /> */}
+    //   {/* <Castles /> */}
 
-      {/* <Categories /> */}
+    //   // <Categories />
 
-      <ImageLayout />
+    //   {/* <ImageLayout /> */}
 
 
           
-    </div>
+    // // </div>
+
+
+    <Router>
+      <div>
+        <Categories />
+      </div>
+      <Routes>
+        <Route path='Surfing' Component={Surfing}/>
+        <Route path='Castles' Component={Castles}/>
+        <Route path='AmazingViews' Component={Amazing_Views}/>
+        <Route path='Treehouses' Component={Treehouses}/>
+        <Route path='Beaches' Component={Beach}/>
+      </Routes>
+    </Router>
   );
 }
 
