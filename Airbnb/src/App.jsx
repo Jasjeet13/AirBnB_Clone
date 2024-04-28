@@ -6,6 +6,7 @@ import Amazing_Views from './Components/Amazing_Views'
 import Surfing from './Components/Surfing'
 import Castles from './Components/Castles'
 import Categories from './Components/Categories'
+import ImageLayout from './Components/ImageLayout'
 
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
 
       {/* <Castles /> */}
 
-      <Categories />
+      {/* <Categories /> */}
+
+      <ImageLayout />
 
 
           
