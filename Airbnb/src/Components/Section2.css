@@ -1,0 +1,11 @@
+.list2 li {
+  margin-bottom: 7%;
+  list-style-type: none;
+}
+.lists {
+  display: flex;
+}
+.list1 li {
+  margin-bottom: 50px;
+  list-style-type: none;
+}

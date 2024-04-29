@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 680px;
-  height: 70px;
+  width: 600px;
+  height: 60px;
   border-radius: 50px;
   border: 2px solid lightgrey;
 }
@@ -23,19 +23,13 @@
   width: 1.5px; /* Width of the lines */
   background-color: lightgrey; /* Color of the lines */
 }
-
-.left {
-  left: 210px; /* Adjust the position of the left line */
-  width: 2px;
-}
-
 .right {
-  right: 210px; /* Adjust the position of the right line */
+  right: 50%; /* Adjust the position of the right line */
 }
 
 .box {
-  width: 226px;
-  height: 70px;
+  width: 300px;
+  height: 60px;
   text-align: center;
   align-content: center;
   border-radius: 50px;

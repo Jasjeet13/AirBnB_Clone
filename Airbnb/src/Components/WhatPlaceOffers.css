@@ -1,0 +1,10 @@
+.twolist {
+  display: flex;
+}
+.twolist li {
+  list-style-type: none;
+  margin-bottom: 10%;
+}
+.twolist li svg {
+  margin-right: 20%;
+}

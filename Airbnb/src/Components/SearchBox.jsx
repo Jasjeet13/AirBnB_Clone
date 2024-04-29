@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./SearchBox.css";
-
+import DateSelector from "./DateSelector";
+import GuestDropdown from "./GuestDropdown";
 const SearchBox = () => {
   const [isCursorInBox, setIsCursorInBox] = useState(false);
 
@@ -16,7 +17,6 @@ const SearchBox = () => {
     <div className="search-box-container">
       {!isCursorInBox && (
         <>
-          <div className="vertical-line left"></div>
           <div className="vertical-line right"></div>
         </>
       )}
@@ -26,21 +26,14 @@ const SearchBox = () => {
           onMouseEnter={handleMouseEnterBox}
           onMouseLeave={handleMouseLeaveBox}
         >
-          hiiii
+          <DateSelector />
         </div>
         <div
           className="box"
           onMouseEnter={handleMouseEnterBox}
           onMouseLeave={handleMouseLeaveBox}
         >
-          helloo
-        </div>
-        <div
-          className="box"
-          onMouseEnter={handleMouseEnterBox}
-          onMouseLeave={handleMouseLeaveBox}
-        >
-          bie bie
+          <GuestDropdown />
         </div>
       </div>
     </div>

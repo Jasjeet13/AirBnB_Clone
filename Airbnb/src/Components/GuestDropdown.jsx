@@ -50,6 +50,7 @@ const GuestDropdown = () => {
   return (
     <div className="guest-dropdown">
       <button className="toggle-button" onClick={toggleDropdown}>
+        Who <br></br>
         {totalGuests} guests
       </button>
       {isOpen && (

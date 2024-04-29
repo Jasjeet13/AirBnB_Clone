@@ -1,17 +1,13 @@
 .toggle-button {
   background-color: white;
-  border-color: aliceblue;
-  width: 295px;
-  height: 50px;
-  font-size: 20px;
-  border-radius: 10px;
-  border-color: rgb(211, 211, 211);
-  border-width: 1px;
-  color: rgb(192, 193, 193);
+  width: 280px;
+  height: 40px;
+  font-size: 17px;
+  border: none;
   margin-top: 5px;
 }
 .toggle-button:hover {
-  border-color: black;
+  background-color: rgb(243, 239, 239);
 }
 .category {
   padding: 10px;

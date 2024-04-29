@@ -1,0 +1,29 @@
+.flexdate {
+  display: flex;
+  justify-content: space-around;
+}
+.label {
+  text-align: center;
+}
+.checkincheckout {
+  width: 200px;
+}
+.checkinout {
+  text-align: center;
+}
+.checkinout input {
+  border: none;
+  background-color: none;
+}
+#checkOutDate {
+  background-color: none;
+}
+#checkOutDate:hover {
+  background-color: rgb(243, 239, 239);
+}
+#checkInDate {
+  background-color: none;
+}
+#checkInDate:hover {
+  background-color: rgb(243, 239, 239);
+}
