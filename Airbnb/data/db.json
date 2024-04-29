@@ -375,10 +375,18 @@
         "location": "Built in 2020",
         "price": "₹80,000 night",
         "images":["https://a0.muscache.com/im/pictures/miso/Hosting-53519419/original/f0f0a291-65a9-442b-9036-45b7e5e25676.jpeg?im_w=960",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-53519419/original/df0ef78a-3f63-4d16-a5ac-abff6b82f49b.jpeg?im_w=480",
-    "https://a0.muscache.com/im/pictures/53ed423f-f4c4-4be5-9bf9-e52861167c0f.jpg?im_w=480",
-  "https://a0.muscache.com/im/pictures/364832c8-45ba-45ae-b1f0-5632f033c5a9.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/35f1327f-8a5d-4a5c-9343-c23856368531.jpg?im_w=480"]
+                  "https://a0.muscache.com/im/pictures/miso/Hosting-53519419/original/df0ef78a-3f63-4d16-a5ac-abff6b82f49b.jpeg?im_w=480",
+                  "https://a0.muscache.com/im/pictures/53ed423f-f4c4-4be5-9bf9-e52861167c0f.jpg?im_w=480",
+                  "https://a0.muscache.com/im/pictures/364832c8-45ba-45ae-b1f0-5632f033c5a9.jpg?im_w=480",
+                  "https://a0.muscache.com/im/pictures/35f1327f-8a5d-4a5c-9343-c23856368531.jpg?im_w=480"
+                ],
+        "heading": "8 rooms @Castle Oodeypore",
+        "bedroom" : 8,
+        "bed" : 8,
+        "host" : "Nirmal",
+        "aboutHost" : 5,
+        "aboutPlace": "Castle Oodeypore is a palatial homestay, offering a unique experience. It is a home that hosts beautiful people and connects families, friends, and travelers alike, a castle that reminds you of the bygone era, a place for our guests to revel in the timeless beauty of nature.",
+        "showMore":"Built-in the year 2021 Castle Oodeypore is an architectural marvel amidst the foothills of the Aravallis, made from the red sandstone of Bikaner, making it the only red sandstone property in Udaipur."
       },
       {
         "id": 2,
