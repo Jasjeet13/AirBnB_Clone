@@ -386,7 +386,10 @@
         "host" : "Nirmal",
         "aboutHost" : 5,
         "aboutPlace": "Castle Oodeypore is a palatial homestay, offering a unique experience. It is a home that hosts beautiful people and connects families, friends, and travelers alike, a castle that reminds you of the bygone era, a place for our guests to revel in the timeless beauty of nature.",
-        "showMore":"Built-in the year 2021 Castle Oodeypore is an architectural marvel amidst the foothills of the Aravallis, made from the red sandstone of Bikaner, making it the only red sandstone property in Udaipur."
+        "showMore":"Built-in the year 2021 Castle Oodeypore is an architectural marvel amidst the foothills of the Aravallis, made from the red sandstone of Bikaner, making it the only red sandstone property in Udaipur.",
+        "text1":["Room in a castle","Your own room in a home, plus access to shared spaces."],
+        "text2":["Shared common spaces","You'll share parts of the home with the Host and other guests."],
+        "text3":["Dedicated bathroom","This place has a bathroom that's just for you"]
       },
       {
         "id": 2,
@@ -397,7 +400,17 @@
         "https://a0.muscache.com/im/pictures/miso/Hosting-832355501498041527/original/ca8c5bfa-9fa6-47b8-81c9-4af891d721a4.jpeg?im_w=480",
       "https://a0.muscache.com/im/pictures/miso/Hosting-833065158983976179/original/65edf49f-8a9e-40d8-8e37-a4f598580a5e.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-833065158983976179/original/aa9500e6-5f12-443e-ae0f-a6c7aed8525e.jpeg?im_w=480",
-  "https://a0.muscache.com/im/pictures/miso/Hosting-833065158983976179/original/6e9c1a61-294c-483a-a4c5-5c0c389df56a.jpeg?im_w=480"]
+  "https://a0.muscache.com/im/pictures/miso/Hosting-833065158983976179/original/6e9c1a61-294c-483a-a4c5-5c0c389df56a.jpeg?im_w=480"],
+        "heading": "Schloss Wimsbach, Austria - South Suite",
+        "bedroom" : 2,
+        "bed" : 2,
+        "host" : "Adrian",
+        "aboutHost" : 5,
+        "aboutPlace": "Wimsbach Castle is in a scenically and culturally exceptional location. Guests enjoy nearly six acres (over 2 hectares) of private park as well as the area's outstanding cultural treasures and proximity to Austria's lake district. The village is embedded in a nature reserve, offering guests endless local walking and biking opportunities. The baroque churches and monasteries in the area are exceptional, and lakes, mountains and beautiful villages like Bad Ischl and Hallstatt are in easy reach.",
+        "showMore":"From this year, fishing on the estate's 6.5 kilometres of river is also available to guests.Another special feature this year is that the Salzkammergut region is a 2024 European Capital of Culture, with numerous associated events and exhibitions.",
+        "text1":["Room in a castle","Your own room in a home, plus access to shared spaces."],
+        "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+        "text3":["Dedicated bathroom","This place has a bathroom that's just for you"]
       },
       {
         "id": 3,
@@ -408,7 +421,17 @@
       "https://a0.muscache.com/im/pictures/751624de-45d1-4917-ab1b-8124fd32fb1a.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/15d8d6d1-dbd7-4eb8-b5b5-5148ffb7cb63.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/933a307e-8b76-448e-8433-24a12fb28841.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-47086741/original/5f02a71a-1fdf-4c1c-94d6-01508fc14745.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-47086741/original/5f02a71a-1fdf-4c1c-94d6-01508fc14745.jpeg?im_w=480"],
+        "heading": "Royal Boutique Hotel - VILA DOMINA",
+        "bedroom" : 7,
+        "bed" : 7,
+        "host" : "Sebastian",
+        "aboutHost" : 8,
+        "aboutPlace": "The Lucia Villa Complex entices you to discover the true meaning of chic. A charm forged by the fusion of city comfort and closeness to nature, by the traditional and the modern, the local and the cosmopolitan spirit…",
+        "showMore":"Villa Domina - a petite castle built around the time Peleş was created – welcomes you with its graceful line and its tall, luminous openings. Situated right across the entrance alley that leads to Peles Castle, you will find here a universe of elegance that will unfold before your eyes as you take your first steps. The rooms offer you an oasis of serenity and comfort, and are a perfect place for your holiday.",
+        "text1":["Park for free","This is one of the few places in the area with free parking"],
+        "text2":["Experienced host","Sebastian has 74 reviews for other places."],
+        "text3":["Free cancellation before 2:00 pm on 30 Apr","Get a full refund if you change your mind."]
       },
       {
         "id": 4,
@@ -419,7 +442,17 @@
       "https://a0.muscache.com/im/pictures/89db7ed2-f71f-473b-8c27-1fd8e9236185.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/1d0231a4-cf74-48fa-be31-5fad536bc6ca.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/16741863/c601dbec_original.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/2d1e034c-3647-4789-a42f-586c04f531e5.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/2d1e034c-3647-4789-a42f-586c04f531e5.jpg?im_w=480"],
+        "heading": "Petrongonas family Castle in Mani",
+        "bedroom" : 2,
+        "bed" : 6,
+        "host" : "Marios",
+        "aboutHost" : 11,
+        "aboutPlace": "Unique picturesque and authentic tower in a traditional settlement in Southern Peloponnesus. If you want to get to know the real Greece, this is for you! Ideal for excursions across the most beautiful places in Peloponnesus",
+        "showMore":"An authentic, fully furnished, recently renovated castle with great views.Around 2 centuries ago, our grandparents decided to build a castle for their winter stays and to protect themselves from enemies, from the war. On the ground floor you can find the olive press that the residents had in order to make their olive oil.",
+        "text1":["Self check-in","Check yourself in with the lockbox."],
+        "text2":["Furry friends welcome","Bring your pets along for the stay"],
+        "text3":["Dedicated bathroom","This place has a bathroom that's just for you"]
       },
       {
         "id": 5,
@@ -430,7 +463,17 @@
       "https://a0.muscache.com/im/pictures/13557afe-4184-4e9e-8343-47574fec2c29.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/28db9a6a-5ad5-4421-9637-ea5effbb32d5.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/6f96eac0-b702-4351-96ee-b07bb0bb9efb.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/53a10201-a6a3-4a7f-a3c4-b4e15b2d1512.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/53a10201-a6a3-4a7f-a3c4-b4e15b2d1512.jpg?im_w=480"],
+        "heading": "Luxury home Torre Trasita in Positano (6 people)",
+        "bedroom" : 3,
+        "bed" : 3,
+        "host" : "Roberta Marina",
+        "aboutHost" : 9,
+        "aboutPlace": "Luxurious residence in the historic Torre del '500 on the beach in Positano for a wonderful holiday full of unforgettable charm. Independent castle overlooking the sea, sleeps up to 6.",
+        "showMore":"Ideal for a family or group of 6 people who want to live Positano day and night, visit the Coast by sea in total relaxation. The tower is 300 meters from the beach, the pier, shopping center, restaurants, supermarket and take away! It allows you to get around on foot away from traffic and chaos.",
+        "text1":["Roberta Marina is a Superhost","Superhosts are experienced, highly rated Hosts."],
+        "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+        "text3":["Free cancellation before 8 Jun","Get a full refund if you change your mind."]
       },
       {
         "id": 6,
@@ -441,7 +484,17 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-23654344/original/ddcc0d26-97ba-486c-afb2-81d1422cb82f.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/e352a414-f446-4450-b893-b59bc8bf2295.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/60f422cb-2f1c-48b9-9841-279ebe2f045d.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/e91efc1f-3491-4fb5-94a4-057ab4d1c032.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/e91efc1f-3491-4fb5-94a4-057ab4d1c032.jpg?im_w=480"],
+        "heading": "Lôkes - large and unique Hälsingegård in Järvsö",
+        "bedroom" : 6,
+        "bed" : 12,
+        "host" : "Roffe",
+        "aboutHost" : 7,
+        "aboutPlace": "Welcome to stay in a very special Hälsingegård, a world heritage. At Lôkes you meet anthem from the 16th century. The manor house was built as a guest house 1846 and holds a rich history.You live close to skiing, swimming, the river, Järvsö center, Järvzoo, the bicycle park and bike trails, Stene Gård's nice area and all activities Järvsö offers.",
+        "showMore":"In our wooden castle, apart from six different bedrooms, there are also two lounges, three bathrooms and one separate toilets, two kitchens, one of which has room for large parties to have meals. On the front there is also a lovely punch veranda. The farm is 1.2 ha and also houses several other buildings. Three old cultural farm houses, one from the 16th century when the farm originated. In these, it is great to spend the summer in the air mattress. We also have a carriage rider, where you can have an outdoor party, but still sit under the roof.",
+        "text1":["Self check-in","Check yourself in with the lockbox."],
+        "text2":["Park for free","This is one of the few places in the area with free parking."],
+        "text3":["Free cancellation before 4:00 pm on 29 Apr","Get a full refund if you change your mind."]
       },
       {
         "id": 7,
@@ -452,7 +505,17 @@
       "https://a0.muscache.com/im/pictures/97056109/e1bff882_original.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/97058201/1237cbcb_original.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/97055698/a0c8d85c_original.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/97057092/7b7f0ff3_original.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/97057092/7b7f0ff3_original.jpg?im_w=480"],
+        "heading": "romantic apartment in old castle",
+        "bedroom" : 2,
+        "bed" : 3,
+        "host" : "Matthias",
+        "aboutHost" : 9,
+        "aboutPlace": "The Castle is located in a Nature-Park, on 850m altitude.",
+        "showMore":"Train station nearby.eCar and eBike - hire available",
+        "text1":["Room in a castle","Your own room in a home, plus access to shared spaces."],
+        "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+        "text3":["Furry Friends welcome","Bring your pets along for the stay."]
       },
       {
         "id": 8,
@@ -463,18 +526,17 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/97eadaf2-185f-4183-b211-f09952d55473.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/7b6831f5-d967-422e-a6e0-3f0bedf7d1e6.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/cc4be6f1-948b-4668-88b6-76b81d59bb68.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/706f2b69-f5d1-407d-b38f-916d46f67636.jpeg?im_w=480"]
-      },
-      {
-        "id": 9,
-        "name": "Osowa Sien,Poland",
-        "location": "Biult in 1878",
-        "price": "₹2,34,499 night",
-        "images":["https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/347f2682-6824-410c-82b7-7b04489b8a94.jpeg?im_w=960",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/97eadaf2-185f-4183-b211-f09952d55473.jpeg?im_w=480",
-    "https://a0.muscache.com/im/pictures/7b6831f5-d967-422e-a6e0-3f0bedf7d1e6.jpg?im_w=480",
-  "https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/cc4be6f1-948b-4668-88b6-76b81d59bb68.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/706f2b69-f5d1-407d-b38f-916d46f67636.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/706f2b69-f5d1-407d-b38f-916d46f67636.jpeg?im_w=480"],
+        "heading": "Exclusive Castle Retreat: The Palace at Osowa Sien",
+        "bedroom" : 17,
+        "bed" : 37,
+        "host" : "Matt and Jamie",
+        "aboutHost" : 8,
+        "aboutPlace": "Welcome to The Palace at Osowa Sien, our private fairytale residence nestled within a 5 Ha park, just 3 hours from Berlin or Warsaw.Perfect for families, corporate groups, or friends, our castle accommodates up to 42 guests and offers amenities like: a cozy Finnish sauna, a wellness studio, a fully-equipped kitchen, a fireplace salon, dining room, a place to dance, terrace and park.",
+        "showMore":"Planning to host a wedding or milestone event here? Please contact us directly if you would like an event services and catering offer. These things cannot be arranged on AirBnB.This is our private residence so we've tried to think of and include all essentials for you to ensure a very comfortable stay including but not limited to:Electric, eco-pellet Heating, firewood for the fireplaces or bonfires, premium all-natural spa towels from Aegean cotton, designer soft-cotton linens from textile designers.",
+        "text1":["Dedicated workspace","A room with wifi that’s well suited for working."],
+        "text2":["Shared common spaces","You’ll share parts of the home with other guests."],
+        "text3":["Furry Friends welcome","Bring your pets along for the stay."]
       }
     ]
 
