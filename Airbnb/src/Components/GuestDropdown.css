@@ -9,34 +9,3 @@
 .toggle-button:hover {
   background-color: rgb(243, 239, 239);
 }
-.category {
-  padding: 10px;
-  display: flex;
-}
-.dropdown-content {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  width: 292px;
-}
-.category-count {
-  margin-left: 10px;
-  margin-right: 20px;
-}
-.plus-minus {
-  margin-right: 20px;
-}
-.minus {
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 10px;
-  border-width: 1px;
-}
-.plus {
-  border-radius: 10px;
-  border-width: 1px;
-  padding-left: 9px;
-  padding-right: 9px;
-}
-.increase-decrease {
-  margin-left: 70px;
-}
