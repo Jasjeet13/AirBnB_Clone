@@ -41,3 +41,6 @@
 .box:hover {
   background-color: rgb(243, 239, 239); /* Change background color on hover */
 }
+.box3 {
+  display: flex;
+}

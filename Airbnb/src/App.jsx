@@ -1,13 +1,11 @@
 import React from "react";
-import ImageLayout from "./Components/ImageLayout";
-import PlaceName from "./Components/PlaceName";
-import AboutPlace from "./Components/AboutPlace";
+import DateSelector from "./Components/DateSelector";
+import SearchBox from "./Components/SearchBox";
 function App() {
   return (
     <div>
-      <PlaceName />
-      <ImageLayout />
-      <AboutPlace />
+      <DateSelector />
+      <SearchBox />
     </div>
   );
 }
