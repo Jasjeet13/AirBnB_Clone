@@ -8,6 +8,8 @@ import Castles from './Components/Castles'
 import Categories from './Components/Categories'
 import ImageLayout from './Components/ImageLayout'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import ShowMore from './Components/ShowMore'
+import ShowMore2 from './Components/ShowMore2'
 
 
 
@@ -35,16 +37,25 @@ function App() {
     // // </div>
 
 
+    // <Router>
+    //   <div>
+    //     <Categories />
+    //   </div>
+    //   <Routes>
+    //     <Route path='Surfing' Component={Surfing}/>
+    //     <Route path='Castles' Component={Castles}/>
+    //     <Route path='AmazingViews' Component={Amazing_Views}/>
+    //     <Route path='Treehouses' Component={Treehouses}/>
+    //     <Route path='Beaches' Component={Beach}/>
+    //   </Routes>
+    // </Router>
+
     <Router>
       <div>
-        <Categories />
+        <ShowMore />
       </div>
       <Routes>
-        <Route path='Surfing' Component={Surfing}/>
-        <Route path='Castles' Component={Castles}/>
-        <Route path='AmazingViews' Component={Amazing_Views}/>
-        <Route path='Treehouses' Component={Treehouses}/>
-        <Route path='Beaches' Component={Beach}/>
+        <Route path='ShowMore2' Component={ShowMore2}/>
       </Routes>
     </Router>
   );
