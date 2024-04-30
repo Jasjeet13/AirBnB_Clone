@@ -1,11 +1,16 @@
 import Hostedby from "./Hostedby";
 import Section2 from "./Section2";
 import WhatPlaceOffers from "./WhatPlaceOffers";
-import "./AboutPlace.css";
-export default function AboutPlace() {
+import './AboutPlace.css';
+import { useParams } from 'react-router-dom';
+
+export default function AboutPlace({data}) {
+  const { id } = useParams();
+  const castle = data.find(castle => castle.id === parseInt(id));
+
   return (
     <>
-      <h2>Entire cabin in Balamban, Philippines</h2>
+      <h2>castle.</h2>
       <p className="sublie">3 guests. 1 bedroom. 1 bed. 1 bathroom</p>
       <Hostedby />
       <hr></hr>
