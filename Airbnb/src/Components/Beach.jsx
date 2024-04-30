@@ -13,7 +13,7 @@ function Beach() {
 
   return (
     <div>
-      <DisplayCard data={data}/>
+      <DisplayCard data={data} category="Beach"/>
     </div>
   );
 }

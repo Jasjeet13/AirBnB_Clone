@@ -1,5 +1,6 @@
 .twolist {
   display: flex;
+
 }
 .twolist li {
   list-style-type: none;
@@ -7,4 +8,41 @@
 }
 .twolist li svg {
   margin-right: 20%;
+}
+
+.offer-l1{
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-l2{
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-l1 li{
+  display: flex;
+}
+
+.offer-l2 li{
+  display: flex;
+}
+
+.column-1{
+  margin-left: 17%;
+}
+
+#svg{
+  width: 22px;
+  height: 22px;
+  opacity: 0.7;
+}
+
+.offer-box{
+  margin-right: 8%;
+}
+
+.offer{
+  font-size: 14px;
+  
 }

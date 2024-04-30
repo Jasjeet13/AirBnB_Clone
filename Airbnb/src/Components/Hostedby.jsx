@@ -1,5 +1,5 @@
 import "./Hostedby.css";
-export default function () {
+export default function ({host,aboutHost}) {
   return (
     <>
       <div className="hostedby">
@@ -10,8 +10,8 @@ export default function () {
           />
         </div>
         <div className="name">
-          <p>Hosted by Mikhaela Angela</p>
-          <p className="subline">Superhost.7 years hosting</p>
+          <p className="hostname">Hosted by {host}</p>
+          <p className="subline">{aboutHost} years hosting</p>
         </div>
       </div>
     </>

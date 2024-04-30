@@ -17,18 +17,21 @@ import DateSelector from './Components/DateSelector'
 
 function App() {
   return (
-    // <Router>
-    //   <div>
-    //     <Categories />
-    //   </div>
-    //   <Routes>
-    //     <Route path='Surfing' Component={Surfing}/>
-    //     <Route path='Castles' Component={Castles}/>
-    //     <Route path='AmazingViews' Component={Amazing_Views}/>
-    //     <Route path='Treehouses' Component={Treehouses}/>
-    //     <Route path='Beaches' Component={Beach}/>
-    //   </Routes>
-    // </Router>
+    <Router>
+      {/* <div>
+        <Categories />
+      </div> */}
+      <Routes>
+        <Route path='/' element={<Surfing />}/>
+        <Route path='/Surfing' element={<Surfing />}/>
+        <Route path='/Surfing' element={<Surfing />}/>
+        <Route path='/Castles' element={<Castles />}/>
+        <Route path='/AmazingViews' element={<Amazing_Views />}/>
+        <Route path='/Treehouses' element={<Treehouses />}/>
+        <Route path='/Beaches' element={<Beach />}/>
+        <Route path='/:category/:placeId' element={<AboutPlace/>} />
+      </Routes>
+    </Router>
 
     // <Router>
     //   <div>
@@ -40,10 +43,10 @@ function App() {
     // </Router>
 
 
-    <div>
-      <AboutPlace />
-      {/* <DateSelector /> */}
-    </div>
+    // <div>
+    //   <AboutPlace />
+    //   {/* <DateSelector /> */}
+    // </div>
   );
 }
 
