@@ -1,11 +1,36 @@
 .list2 li {
-  margin-bottom: 7%;
   list-style-type: none;
+  margin-left: 3%;
 }
 .lists {
   display: flex;
 }
-.list1 li {
-  margin-bottom: 50px;
+.list1 ul li {
+  display: flex;
+  margin-bottom: 5%;
   list-style-type: none;
 }
+
+.bi{
+  font-size: 14px;
+}
+
+.svg-box{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4%;
+}
+b{
+  font-size: 15px;
+}
+
+p{
+  font-size: 13px;
+  letter-spacing: 1;
+}
+

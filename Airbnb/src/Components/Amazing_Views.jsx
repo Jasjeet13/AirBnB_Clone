@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import DisplayCard from './DisplayCard';
 
-function Beach() {
+function Amazing_Views() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -13,9 +13,9 @@ function Beach() {
 
   return (
     <div>
-      <DisplayCard data={data}/>
+      <DisplayCard data={data} category="AmazingViews"/>
     </div>
   );
 }
 
-export default Beach;
+export default Amazing_Views;

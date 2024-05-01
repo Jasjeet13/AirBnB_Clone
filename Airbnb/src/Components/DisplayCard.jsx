@@ -1,18 +1,12 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Card, CardContent, Typography, CardMedia, Grid } from '@mui/material';
 import './DisplayCard.css';
 
-function DisplayCard({ data }) {
-  const history = useHistory();
-
-  const handleProfileClick = (id) => {
-    history.push(`/castle/${id}`);
-  };
-
+function DisplayCard({ data, category }) {
   const PrevArrow = (props) => {
     const { className, style, onClick } = props;
     return (
@@ -36,30 +30,20 @@ function DisplayCard({ data }) {
   };
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
-    appendDots: (dots) => (
-      <div style={{ position: "absolute", bottom: "10px", width: "100%" }}>
-        <ul className="custom-dots">
-          {React.Children.toArray(dots).map((dot, index) => (
-            <li key={index} className="custom-dot">
-              {dot}
-            </li>
-          ))}
-        </ul>
-      </div>
-    )
   };
+  
 
   return (
-    <Grid container spacing={3} style={{padding:"10px"}}>
-      {data.map((item, index) => (
-        <Grid item xs={6} sm={3} key={index} onClick={() => handleProfileClick(item.id)}>
+    <Grid container spacing={3} style={{ padding: "10px" }}>
+      {data && data.map((item, index) => (
+        <Grid item xs={6} sm={3} key={index}>
           <Card elevation={0} style={{ height: "100%" }}>
             <CardContent>
               <Slider {...settings}>
@@ -76,15 +60,21 @@ function DisplayCard({ data }) {
                 ))}
               </Slider>
 
-              <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "700", margin: "10px" }}>
-                {item.name} <br />
-              </Typography>
-              <Typography variant="h4" style={{ fontSize: "14px", margin: "10px", color: "#9fa1a1" }}>
-                {item.location} <br />
-              </Typography>
-              <Typography variant="h4" style={{ fontSize: "14px", margin: "10px", color: "#9fa1a1" }}>
-                <span style={{ fontWeight: "700", color: "black" }}>{item.price}</span> <br />
-              </Typography>
+              <Link to={{ pathname: `/${category}/${item.id}`}} >
+
+
+                <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "700", margin: "10px" }}>
+                  {item.name} <br />
+                </Typography>
+                <Typography variant="h4" style={{ fontSize: "14px", margin: "10px", color: "#9fa1a1" }}>
+                  {item.location} <br />
+                </Typography>
+                <Typography variant="h4" style={{ fontSize: "14px", margin: "10px", color: "#9fa1a1" }}>
+                  <span style={{ fontWeight: "700", color: "black" }}>{item.price}</span> <br />
+                </Typography>
+              </Link>
+
+
             </CardContent>
           </Card>
         </Grid>
