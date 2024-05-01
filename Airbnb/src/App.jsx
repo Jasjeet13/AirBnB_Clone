@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       {/* <Searchbox /> */}
-      {/* <Reserve /> */}
-      <SearchBox />
+      <Reserve />
+      {/* <SearchBox /> */}
     </>
   );
 }
