@@ -5,8 +5,13 @@
     background-color: #f7f7f7;
     font-size: 0.875rem;
     color: #484848;
-    font-family: 'Arial', sans-serif;
   }
+.col h4{
+  margin-bottom:10px;
+}
+li{
+  font-size:12px;
+}
   
   .container {
     width: 80%;
@@ -16,14 +21,12 @@
   
   .row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
   
   .col {
     flex: 1;
     margin-right: 20px;
-    min-width: 160px;
     padding-bottom:40px;
     padding-top:20px;
   };
@@ -81,7 +84,7 @@
     color: #000;
   }
   
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .container {
       width: 95%;
     }
@@ -99,6 +102,6 @@
     .footer-social-media {
       margin-top: 10px;
     }
-  }
+  } */
 
   

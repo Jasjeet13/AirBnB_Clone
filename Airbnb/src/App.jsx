@@ -16,49 +16,16 @@ import DateSelector from './Components/DateSelector'
 import Navbar from './Components/Navbar'
 import SearchBox from './Components/SearchBox'
 import { Container, Grid } from '@mui/material'
+import Footer from './Components/Footer'
 
 function App() {
-  const [showCategories, setShowCategories] = useState(true); 
-
-  const handleCategoryClick = () => {
-    setShowCategories(false); 
-    console.log(showCategories);
-  };
 
   return (
-    <Router>
-      <div>
-        <Grid container sx={{borderBottom:'solid 1px rgba(0, 0, 0, 0.1)'}}>
-          <Grid item xs={12} >
-            <Navbar />
-          </Grid>
-
-          <Grid item xs={12} sx={{marginBottom:'1%'}}>
-            <SearchBox />
-          </Grid>
-
-        </Grid>
-
-        {showCategories && <Categories />}
-
-      </div>
-      <Routes>
-        <Route path='/' element={<Surfing />}/>
-        <Route path='/Surfing' element={<Surfing />}/>
-        <Route path='/Surfing' element={<Surfing />}/>
-        <Route path='/Castles' element={<Castles />}/>
-        <Route path='/AmazingViews' element={<Amazing_Views />}/>
-        <Route path='/Treehouses' element={<Treehouses />}/>
-        <Route path='/Beaches' element={<Beach />}/>
-        <Route path='/:category/:placeId' element={<AboutPlace onClick={handleCategoryClick} />} />
-      </Routes>
-    </Router>
-
-    <>
-      {/* <Searchbox /> */}
+    <>      {/* <Searchbox /> */}
       {/* <Reserve /> */}
       {/* <SearchBox /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <Footer />
     </>
   );
 }
