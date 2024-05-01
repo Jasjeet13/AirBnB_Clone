@@ -23,7 +23,9 @@ const DateSelector = () => {
     <div className="flexdate">
       <div className="checkincheckout">
         <div className="label">
-          <label htmlFor="checkInDate">Check-in</label>
+          <label htmlFor="checkInDate">
+            <p style={{fontWeight:'700'}}>Check-in</p>
+            </label>
         </div>
         <div className="checkinout">
           <input
@@ -35,9 +37,14 @@ const DateSelector = () => {
           />
         </div>
       </div>
+
+      <div className="vertical-line"></div>
+
       <div className="checkincheckout">
         <div className="label">
-          <label htmlFor="checkOutDate">Check-out</label>
+          <label htmlFor="checkOutDate">
+            <p style={{fontWeight:'700'}}>Check-out</p>
+          </label>
         </div>
         <div className="checkinout">
           <input

@@ -14,6 +14,7 @@ const SearchBox = () => {
   };
 
   return (
+    <div className="outer-search-box">
     <div className="search-box-container">
       {!isCursorInBox && (
         <>
@@ -36,6 +37,7 @@ const SearchBox = () => {
           <GuestDropdown />
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -10,6 +10,8 @@ import { Card, CardContent, Typography, CardMedia, Grid } from "@mui/material";
 import ImageLayout from "./ImageLayout";
 import { Link } from "react-router-dom";
 import GuestDropdown from "./GuestDropdown";
+import Footer2 from "./Footer2";
+import Footer from "./Footer";
 
 export default function AboutPlace() {
   const { placeId, category } = useParams();
@@ -37,8 +39,8 @@ export default function AboutPlace() {
       width: "100%",
       alignItems: "center",
       justifyContent: "center",
-      borderTop: "solid 2px grey",
-      marginTop: "2%",
+      borderTop: "solid 1px rgba(0, 0, 0, 0.1)",
+      // marginTop: "2%",
     },
 
     gc2: {
@@ -67,7 +69,7 @@ export default function AboutPlace() {
         </Grid>
 
         <Typography variant="h6" sx={{ fontWeight: "600" }}>
-          {placeData.name}
+          {placeData.subheading}
         </Typography>
 
         <Grid item xs={12} />
@@ -85,7 +87,8 @@ export default function AboutPlace() {
         </Grid>
 
         <Grid item xs={5}>
-          <Reserve />
+          {/* <Reserve /> */}
+          Reserve
         </Grid>
 
         {/* <Grid item xs={12}>  */}
@@ -131,9 +134,15 @@ export default function AboutPlace() {
           </Grid>
         </Grid>
 
-        
+        <Grid item xs={12} sx={{ borderTop: "solid 1px rgba(0, 0, 0, 0.1)",marginBottom:'4%' }}>
+          <Footer2 />
+        </Grid>        
 
       </Grid>
+
+      <Grid item xs={12}>
+          <Footer />
+        </Grid>
     </Grid>
   );
 }

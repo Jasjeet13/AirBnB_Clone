@@ -3,7 +3,7 @@ import GuestDropdown from "./GuestDropdown";
 export default function () {
   return (
     <>
-      <h2 className="heading">Things to know</h2>
+      <h2 style={{fontSize:'25px',fontWeight: "700", margin: "2% 0 2% 0"}}>Things to know</h2>
       <div className="footer2">
         <div>
           <ul className="list">
@@ -36,7 +36,7 @@ export default function () {
           </ul>
         </div>
       </div>
-      <GuestDropdown />
+
     </>
   );
 }
