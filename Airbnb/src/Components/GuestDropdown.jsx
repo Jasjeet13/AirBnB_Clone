@@ -48,57 +48,59 @@ const GuestDropdown = () => {
   return (
     <div className="guest-dropdown">
       <button className="toggle-button" onClick={toggleDropdown}>
-        Who <br></br>
-        {totalGuests} guests
+        <p style={{fontSize:'12px',fontWeight:'700'}}>Who</p>
+        <p>{totalGuests} guests</p>
       </button>
       {isOpen && (
         <div className="dropdown-content">
-          {/* Dropdown content here */}
-          <div className="title">
+
+          <div className="type">
             <ul>
               <li>
-                <p>Adults: {adults}</p>
+                <div className="type-text">
+                  <p className="type-heading">Adults</p>
+                  <p className="type-heading-sub">Ages 13 or above</p>
+                </div>
+
+                <div className="buttons">
+                  <button className="button-plus-minus" onClick={() => handleIncrement("adults")}>+</button>
+                  <p>{adults}</p>
+                  <button className="button-plus-minus" onClick={() => handleDecrement("adults")}>-</button>
+                </div>
+                
               </li>
 
               <li>
-                <p>Children: {children}</p>
+                <div className="type-text"> 
+                  <p className="type-heading">Children</p>
+                  <p className="type-heading-sub">Ages 2–12</p>
+                </div>
+
+                <div className="buttons">
+                  <button className="button-plus-minus" onClick={() => handleIncrement("children")}>+</button>
+                  <p>{children}</p>
+                  <button className="button-plus-minus" onClick={() => handleDecrement("children")}>-</button>
+                </div>
+                
               </li>
+
               <li>
-                <p>Infants: {infants}</p>
+                <div className="type-text">
+                  <p className="type-heading">Infants</p>
+                  <p className="type-heading-sub">Under 2</p>
+                </div>
+
+                <div className="buttons">
+                  <button className="button-plus-minus" onClick={() => handleIncrement("infants")}>+</button>
+                  <p>{infants}</p>
+                  <button className="button-plus-minus" onClick={() => handleDecrement("infants")}>-</button>
+                </div>
+                
               </li>
+
             </ul>
           </div>
-          <div className="addminus">
-            <ul>
-              <li>
-                <button onClick={() => handleIncrement("adults")}>+</button>
-                <button
-                  className="minus"
-                  onClick={() => handleDecrement("adults")}
-                >
-                  -
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleIncrement("children")}>+</button>
-                <button
-                  className="minus"
-                  onClick={() => handleDecrement("children")}
-                >
-                  -
-                </button>
-              </li>
-              <li>
-                <button onClick={() => handleIncrement("infants")}>+</button>
-                <button
-                  className="minus"
-                  onClick={() => handleDecrement("infants")}
-                >
-                  -
-                </button>
-              </li>
-            </ul>
-          </div>
+          
         </div>
       )}
     </div>
