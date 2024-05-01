@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 64px;
+      padding-right: 64px;
+      text-decoration: none;
+      height: 60px;
+    }
+    
+    .navbar-logo {
+      height: 27px;
+      padding-top:1px;
+    }
+    
+    .navbar-links {
+      text-align: center;
+    }
+    
+    
+    .navbar-account {
+      border-radius: 50px;
+      border: 2px solid rgb(208, 207, 207); 
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+      align-items: center; 
+      padding: 7px 2px; 
+    }
+    
+    
+    .navbar-account a {
+      margin: 0 10px;
+      color: grey;
+    }
+  
