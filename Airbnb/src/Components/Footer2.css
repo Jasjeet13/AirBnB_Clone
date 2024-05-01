@@ -1,0 +1,17 @@
+.footer2 {
+  display: flex;
+  justify-content: space-around;
+}
+.heading {
+  margin-left: 110px;
+}
+.list li {
+  color: rgb(67, 66, 66);
+  margin-top: 15px;
+}
+.list {
+  list-style: none;
+}
+ul li:hover {
+  text-decoration: underline;
+}
