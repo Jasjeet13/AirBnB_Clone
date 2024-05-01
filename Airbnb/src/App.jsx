@@ -16,6 +16,7 @@ import DateSelector from './Components/DateSelector'
 import Navbar from './Components/Navbar'
 import SearchBox from './Components/SearchBox'
 import { Container, Grid } from '@mui/material'
+import Footer from './Components/Footer'
 
 function App() {
   return (

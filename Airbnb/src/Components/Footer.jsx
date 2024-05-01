@@ -53,25 +53,25 @@ const Footer = () => {
                         <li>• Sitemap</li>
                         <li>• Company details</li>
                     </ul>
-                    <ul className="Rightside">
-                    <div className="footer-social-media">
-                    <a href="#globe">
-                    <FontAwesomeIcon icon={faGlobe} />
-                    </a>
-                    <p>English (IN)</p>
-                    <p>₹ INR</p>
-                    <a href="#facebook" aria-label="Facebook">
-                    <FontAwesomeIcon icon={faFacebookSquare} />
-                </a>
+                    <div className="Rightside">
+                        <div className="footer-social-media">
+                            <a href="#globe">
+                            <FontAwesomeIcon icon={faGlobe} />
+                            </a>
+                            <p>English (IN)</p>
+                            <p>₹ INR</p>
+                            <a href="#facebook" aria-label="Facebook">
+                            <FontAwesomeIcon icon={faFacebookSquare} />
+                            </a>
 
-                <a href="#twitter" aria-label="Twitter">
-                    <FontAwesomeIcon icon={faTwitterSquare} />
-                </a>
-                <a href="#instagram" aria-label="Instagram">
-                    <FontAwesomeIcon icon={faInstagramSquare} />
-                </a>
-                </div>
-                    </ul>
+                            <a href="#twitter" aria-label="Twitter">
+                            <FontAwesomeIcon icon={faTwitterSquare} />
+                            </a>
+                            <a href="#instagram" aria-label="Instagram">
+                            <FontAwesomeIcon icon={faInstagramSquare} />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
