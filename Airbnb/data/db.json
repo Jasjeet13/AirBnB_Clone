@@ -2,76 +2,138 @@
     "Beach": [
       {
         "id": 1,
-        "name": "Ko Samui,Thailand",
-        "location": "On Laem Yai",
-        "price": "₹4,890 night",
-        "images":["https://a0.muscache.com/im/pictures/893a4bed-34c1-400f-b8b9-bb8f482b3211.jpg?im_w=1200",
-        "https://a0.muscache.com/im/pictures/5077d60f-8d0f-4bda-8387-6243977e4ffd.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/216de0cb-206e-459d-a128-6a96cdf69dfb.jpg?im_w=720",
-        "https://a0.muscac89+94+4+45+45+666he.com/im/pictures/216de0cb-206e-459d-a128-6a96cdf69dfb.jpg?im_w=720",
-        "https://a0.muscache.com/im/pictures/9634123c-6116-4895-aaf9-ca6d3aa0a5ef.jpg?im_w=720"]
+        "name": "Colva,India",
+        "location": "Betalbatim Beach",
+        "price": "₹3,766 night",
+        "images":["https://a0.muscache.com/im/pictures/78f90329-a25c-4a2b-8846-7856fca830de.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/7663389d-a865-4dd8-be22-5c691b1c6586.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/925436f8-e3ac-467a-a979-aca458d24993.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/28cfc252-c7a4-459b-8223-0824bfe8499d.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/e9233a78-2dd7-4eef-b6ea-b0ddafb102e4.jpg?im_w=720"],
+        "heading": "Serenity Homes",
+        "subheading":"Entire rental unit in Colva, India",
+        "bedroom" : 1,
+        "bed" : 4,
+        "host" : "Rommel",
+        "aboutHost" : 4,
+        "aboutPlace": "A beautifully designed intimate space for couples or families to unwind, relax and enjoy the natural beauty of South Goa. ",
+        "showMore":"A beautifully designed intimate space for couples or families to unwind, relax and enjoy the natural beauty of South Goa. The apartment is five minutes away from the pristine Colva beach and the buzzing beach shacks and restaurants.",
+        "text1":["Dedicated workspace","A common area with wifi that’s well suited for working."],
+        "text2":["Rommel is a Superhost","Superhosts are experienced, highly rated Hosts."],
+        "text3":["Great check-in experience","100% of recent guests gave the check-in process a 5-star rating"]
       
       },
       {
         "id": 2,
-        "name": "Ka Tao,Thailand",
-        "location": "On Sai Ri Beach",
-        "price": "₹68,981 night",
-        "images":["https://a0.muscache.com/im/pictures/d32fbb06-557c-4381-97e9-0746d986f8d0.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/7d84d55f-d441-47f9-aa73-045a3cefaff5.jpg?im_w=480",
-        "https://a0.muscache.com/im/pictures/6092ef0c-ef92-4df6-b167-874b14a90c28.jpg?im_w=480",
-        "https://a0.muscache.com/im/pictures/235c56da-3dec-489b-9d55-55a56f3436b1.jpg?im_w=480",
-        "https://a0.muscache.com/im/pictures/1926c443-a907-4510-9719-ffc8e7270238.jpg?im_w=480"
-      ]
+        "name": "Calangute India",
+        "location": "Calangute Beach",
+        "price": "₹9,600 night",
+        "images":["https://a0.muscache.com/im/pictures/miso/Hosting-1026603696796174126/original/e529a5a8-accc-4df4-97a8-3fc52d277fbf.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1026603696796174126/original/748e703b-6be8-4168-b1ff-f735f1d25297.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1026603696796174126/original/fb5d9040-a75b-477e-a382-fe74c2d39b36.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1026603696796174126/original/70dbacdb-7f8c-46c9-874c-4fcc875399a4.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-1026603696796174126/original/f7d11093-87b4-418a-916a-0f94ac090f84.jpeg?im_w=720"],
+      "heading": "2BHK Villa with Private Pool",
+      "subheading":"Entire home in Calangute, India",
+      "bedroom" : 6,
+      "bed" : 6,
+      "host" : "Nitinn",
+      "aboutHost" : 4,
+      "aboutPlace": "Discover the epitome of luxury and comfort at our charming 2-bedroom, 3-bathroom villa in the heart of Calangute. Immerse yourself in a spacious haven equipped with a fully stocked kitchen. Indulge in the privacy of your own sparkling pool, perfect for relaxation and entertainment.",
+      "showMore":"Discover the epitome of luxury and comfort at our charming 2-bedroom, 3-bathroom villa in the heart of Calangute. Immerse yourself in a spacious haven equipped with a fully stocked kitchen. Indulge in the privacy of your own sparkling pool, perfect for relaxation and entertainment. Centrally located, our Airbnb promises a seamless blend of convenience and tranquility for an unforgettable Goan escape. Book now for an unparalleled stay in paradise!",
+      "text1":["Self check-in","You can check in with the building staff."],
+      "text2":["Dive right in","This is one of the few places in the area with a pool."],
+      "text3":["Free cancellation before 31 May","Get a full refund if you change your mind"]
       
       },
       {
         "id": 3,
-        "name": "Matara,Sri Lanka",
-        "location": "18 min walk to Polhena Beach",
-        "price": "₹74,950 night",
-        "images":["https://a0.muscache.com/im/pictures/b922ad1f-c1dd-43d9-9277-cb6afe4a78d9.jpg?im_w=960",
-        "https://a0.muscache.com/im/pictures/f53744a3-c49f-4b45-8e11-5abd87ba29cf.jpg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-47575422/original/c4b056af-1880-4d66-9bbd-aa1cca41c992.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-47575422/original/d9e7bdae-f147-42b5-a457-c7dff0535dc9.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-47575422/original/18087f64-ddbd-4d4e-9eb6-95d2fe297da6.jpeg?im_w=480"]
+        "name": "Hikkaduwa,Sri Lanka",
+        "location": "Hikkaduwa Beach",
+        "price": "₹18,950 night",
+        "images":["https://a0.muscache.com/im/pictures/37b61ebe-5dec-4732-b695-767752807e80.jpg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/8786513d-2119-4e64-9874-698bba966f87.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/10664793-af7b-40b3-90f0-11f114e66036.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/3d2254cc-36c4-4259-b00a-14de32f3a09e.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/7e1d680e-5ce0-476e-984d-012f41850236.jpg?im_w=720"],
+        "heading": "Blue Peacock Beach House",
+        "subheading":"Entire bungalow in Hikkaduwa, Sri Lanka",
+        "bedroom" : 3,
+        "bed" : 4,
+        "host" : "Patricia",
+        "aboutHost" : 3,
+        "aboutPlace": "The Blue Peacock Beach House is a lovely Sri-Lankan style beachfront Property with private swimming pool located right on the beach at Hikkaduwa, just 1 km south of Hikkaduwa-center.",
+        "showMore":"The Blue Peacock Beach House, one of the very few private houses on the beach in Hikkaduwa, is a TRUE beachfront property - with private swimming pool - superbly located right on a wide beach just south of the lively and popular Sri Lankan resort of Hikkaduwa. It is a self-catered house but on your request meals can be arranged.The beach house is completely renovated and decorated to a high standard. We have used quality bed linen and towels to ensure your stay is comfortable. We provide beach towels to avoid heavy suitcases!",
+        "text1":["Great location","100% of recent guests gave the location a 5-star rating."],
+        "text2":["Great check-in experience","95% of recent guests gave the check-in process a 5-star rating"],
+        "text3":["Dive right in","This is one of the few places in the area with a pool."]
       },
       {
         "id": 4,
-        "name": "Langkawi,Malaysia",
-        "location": "3 min walk to Tanjung Rhu Beach",
+        "name": "Kochi,India",
+        "location": "2077 kilometres away",
         "price": "₹13,541 night",
-        "images":["https://a0.muscache.com/im/pictures/8700496d-6fa3-45e5-9894-b5f9706910fe.jpg?im_w=960",
-      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjgyNDc0NzIxNDE2NTI5NTIy/original/0af585a3-2957-44ed-87d7-e9e130d7daf9.jpeg?im_w=480",
-      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjgyNDc0NzIxNDE2NTI5NTIy/original/74c1df21-24a5-48a2-b46b-42fc0b4d1f5e.jpeg?im_w=480",
-      "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjgyNDc0NzIxNDE2NTI5NTIy/original/516a94e6-d1bf-4713-850f-47dd6555acf9.jpeg?im_w=480",
-      "https://a0.muscache.com/im/pictures/6bb25c94-b0de-4b73-b7bf-8c99a86cc99c.jpg?im_w=480"
-    ]
+        "images":["https://a0.muscache.com/im/pictures/dd97112d-6c70-4571-a850-02d2f10405a7.jpg?im_w=1200",
+      "https://a0.muscache.com/im/pictures/24509164/1bf6f65d_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/24506180/90a36950_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/24505976/848a607d_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/24505814/aebeb293_original.jpg?im_w=720"],
+      "heading": "1.SEA HUT HOMESTAY DELUXE KING ROOM.",
+      "subheading":"Room in Kochi,India",
+      "bedroom" : 4,
+      "bed" : 4,
+      "host" : "Sharath",
+      "aboutHost" : 6,
+      "aboutPlace": "Hello everyone Sea hut is a home stay with 4 independent double bed rooms on a common veranda.The room has a king size double bed and an aircon in it. Its a perfect retreat for tourist who want to run away from the hectic city's.",
+      "showMore":"likewise way to sea hut is also narrow, you will need to walk 50 meters through a narrow lane from the main road to our property. bikes will easily come in, but no car access to the property. we do have a private parking 150 meters away from sea hut.",
+      "text1":["Room in a bungalow","Your own room in a home, plus access to shared spaces."],
+      "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+      "text3":["Private attached bathroom","This place has a bathroom that's connected to your room"]
         
       },
       {
         "id": 5,
-        "name": "Majorda,India",
-        "location": "On Arossim Beach",
+        "name": "Udipi,India",
+        "location": "1,643 kilometres away",
         "price": "₹3,994 night",
-        "images":["https://a0.muscache.com/im/pictures/miso/Hosting-954318952682014669/original/58d09322-28ab-44ec-bf88-65c83e0aed39.jpeg?im_w=960",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-954318952682014669/original/b91cca2d-4a3d-4768-b1a9-8b47de772731.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-954318952682014669/original/05bcf6f4-ae5e-42bb-aa1e-3fc3584cc231.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-954318952682014669/original/d5e81cd3-2acf-4d39-9c3f-a82c1084765c.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-954318952682014669/original/9b4d95b5-3804-46eb-959e-08e366e5acbe.jpeg?im_w=480"
-      ]
+        "images":["https://a0.muscache.com/im/pictures/miso/Hosting-602361428876709243/original/d1bfa406-86a0-4080-ac6c-6470e14ca5c0.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-602361428876709243/original/15e4124b-b9de-4da6-9f36-5054099fb065.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-602361428876709243/original/354bd5e8-b107-4f4f-829f-2d44214ba1ec.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-602361428876709243/original/12e61358-c086-4542-85fe-13672e9c9b03.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-602361428876709243/original/3044e68f-a1eb-4356-8c04-e4c2cc4b5b5b.jpeg?im_w=720"],
+        "heading":"Reunion Ocean Elite - Beach House",
+        "subheading":"Entire villa in Udupi, India",
+        "bedroom" : 3,
+        "bed" : 4,
+        "host" : "Patricia",
+        "aboutHost" : 3,
+        "aboutPlace": "Beach facing 2 BHK villa to relax with the whole family, friends. Spend a beachfront holiday, get a sun bath in the sea. ",
+        "showMore":"Air-conditioned entire furnished villa with a living room, private parking and in-kitchen amenities. Under CCTV Surveillance. Close by to popular Restaurants. 16km from Udupi city,6 kms from Blr-Pune highway.",
+        "text1":["Great location","100% of recent guests gave the location a 5-star rating."],
+        "text2":["Park for free","This is one of the few places in the area with free parking."],
+        "text3":["Great communication","90% of recent guests rated Kshama 5-star in communication."]
       },
       {
         "id": 6,
-        "name": "Bathalaa,Maldives",
+        "name": "North Goa,India",
         "location": "On the Beach",
-        "price": "₹41,910 night",
-        "images":["https://a0.muscache.com/im/pictures/miso/Hosting-853512929423214729/original/be623727-4c78-44ca-a0c1-c448e5e0ccb8.jpeg?im_w=960",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-853512929423214729/original/d2731d23-980b-4fc1-8ccc-926d0e3f4eed.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-853512929423214729/original/babc234f-04c7-40ee-963d-a3354c360194.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-740382368952542950/original/59592ddb-23ff-4311-9a7e-558e8cd1b7ee.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/miso/Hosting-853512929423214729/original/d8a6c21c-81c4-46a5-98cc-0bd7c92f6b4e.jpeg?im_w=480"
-      ]
+        "price": "₹4,910 night",
+        "images":["https://a0.muscache.com/im/pictures/hosting/Hosting-1073931067719605969/original/cf8d1987-b5bf-4137-9a82-d9a901bd6b2c.jpeg?im_w=1200",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1073931067719605969/original/4e7ef5b1-3494-42e4-9114-e3a9097b1cfd.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1073931067719605969/original/1ca7a5e5-ee0d-4250-93fd-93919418c40f.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1073931067719605969/original/51aecb7b-e265-4d3f-b53d-d3e4a3e4f322.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-1073931067719605969/original/3d8bdc3b-762c-458d-aed8-f3eb8b118c62.jpeg?im_w=720"],
+        "heading": "High End luxurious Villa, private pool in morjim",
+        "subheading":"Entire villa in North Goa, India",
+        "bedroom" : 6,
+        "bed" : 6,
+        "host" : "Nitinn",
+        "aboutHost" : 4,
+        "aboutPlace": "Have fun with the whole family at this stylish place.",
+        "showMore":"North Goa, India, is celebrated for its vibrant and picturesque beaches, each offering a unique experience.",
+        "text1":["Room in a bungalow","Your own room in a home, plus access to shared spaces."],
+        "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+        "text3":["Private attached bathroom","This place has a bathroom that's connected to your room"]
       },
       {
         "id": 7,
@@ -82,8 +144,18 @@
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDc4ODcwNTg%3D/original/41949fb5-f212-479f-b78a-c67dc6bb1397.jpeg?im_w=480",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDc4ODcwNTg%3D/original/d3300f6f-6cca-4cce-9871-174642314ecc.jpeg?im_w=480",
         "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDc4ODcwNTg%3D/original/c3eb8f42-fa2f-48f8-8c65-40a289968572.jpeg?im_w=480",
-        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDc4ODcwNTg%3D/original/ab5b3fa5-3e9b-4d9b-9425-0fc2565ab7e9.jpeg?im_w=480"
-      ]
+        "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NDc4ODcwNTg%3D/original/ab5b3fa5-3e9b-4d9b-9425-0fc2565ab7e9.jpeg?im_w=480"],
+        "heading": "Stelliam's Coastal theme 2bhk sea facing home, Goa",
+        "subheading":"Entire rental unit in India",
+        "bedroom" : 1,
+        "bed" : 4,
+        "host" : "Rommel",
+        "aboutHost" : 4,
+        "aboutPlace": "Indulge in the comforts of this exquisite 2-bedroom retreat, meticulously curated by the artisans of Stelliam Holidays. Here, you'll find not just a space but an experience, complete with a breathtaking sea view. Nestled in close proximity to Odxel Beach, this haven offers an escape from the clamor of city life.",
+        "showMore":"Experience a neighborhood that embodies safety and tranquility, enveloped by lush greenery and caressed by invigorating sea breezes. The space itself is a testament to comfort, offering two well-appointed bedrooms and a fully functional kitchen. Additionally, a convenient powder room enhances the common area, while a captivating view awaits you on the beautiful balcony with outdoor seating",
+        "text1":["Great location","100% of recent guests gave the location a 5-star rating."],
+        "text2":["Park for free","This is one of the few places in the area with free parking."],
+        "text3":["Great communication","90% of recent guests rated Kshama 5-star in communication."]
       },
       {
         "id": 8,
@@ -94,8 +166,18 @@
         "https://a0.muscache.com/im/pictures/b06194d6-d4c6-4954-9eda-48142dc64be1.jpg?im_w=480",
         "https://a0.muscache.com/im/pictures/962d5e8a-85e9-41ed-8663-fc4977d5bf82.jpg?im_w=480",
         "https://a0.muscache.com/im/pictures/778486b7-5bbd-4a0c-ae93-e688421867df.jpg?im_w=480",
-        "https://a0.muscache.com/im/pictures/3a47216c-85d0-448c-a994-eb4a2cd18255.jpg?im_w=480"
-      ]
+        "https://a0.muscache.com/im/pictures/3a47216c-85d0-448c-a994-eb4a2cd18255.jpg?im_w=480"],
+        "heading": "Villa 238 - The Beach House-Dutch Bay Trincomalee",
+        "subheading":"Entire townhouse in Trincomalee, Sri Lanka",
+        "bedroom" : 3,
+        "bed" : 4,
+        "host" : "Patricia",
+        "aboutHost" : 3,
+        "aboutPlace": "This lovingly restored  villa is situated right on the beach in beautiful Dutch Bay. It offers a rare opportunity to be embedded in authentic Sri Lankan culture while simultaneously secluded in comfort with modern luxuries and conveniences.",
+        "showMore":"The villa is a fairly unique concept for Sri Lankan villa tourism. As you walk down the quaint residential street, or down the beach past the fisherman casting their nets in the same manner they have for centuries, you would have no idea that tucked behind the unassuming facade is a spacious and comfortable holiday villa with amazing sea views and almost every modern convenience.",
+        "text1":["Self check-in","You can check in with the building staff."],
+        "text2":["Dive right in","This is one of the few places in the area with a pool."],
+        "text3":["Free cancellation before 31 May","Get a full refund if you change your mind"]
       }
     ],
     "Treehouses": [
@@ -108,7 +190,18 @@
       "https://a0.muscache.com/im/pictures/0df746f7-086f-4fff-ab79-0038f2c51b1b.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/3dc6cb5d-60c9-48ee-8c7a-bb81dd79e120.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-47213904/original/a146da1b-4d0a-4501-a481-fb15caae96f4.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-47213904/original/d8ddb6a2-a359-4b77-ad64-887fe60f9141.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-47213904/original/d8ddb6a2-a359-4b77-ad64-887fe60f9141.jpeg?im_w=480"],
+"heading": "View-Topia Treehouse",
+"subheading":"Private room in hut in Munnar, India",
+"bedroom" : 1,
+"bed" : 1,
+"host" : "Anoop",
+"aboutHost" : 1,
+"aboutPlace": "There are two self-build houses: a treehouse and a mudhouse.View-Topia is a special place that will let you become one with nature; wake up with birds or with a magical view of the sunrise. ",
+"showMore":"If you want to stay in nature with silence and peace go ahead and we have basic amenities (not luxurious)We have sunrise and sunset spots.(Treehouse house size is 10 x 10 feet bed room and 10x10 feet balcony)please note the size of the Treehouse.",
+"text1":["Dedicated workspace","A room with wifi that's well suited for working."],
+"text2":["Self Check-in","You can check in with the building staff"],
+"text3":["Anoop is a superhost","Superhosts are experienced and highly rated hosts"]
       },
       {
         "id": 2,
@@ -119,7 +212,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-751206971626894382/original/b6eb801d-df45-440f-8631-878a95abffcb.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-751206971626894382/original/66e2468e-dea1-4d6e-8435-d89792175bfe.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-751206971626894382/original/c9e89bbb-d512-4ee8-bec3-813ee660baa5.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-751206971626894382/original/08ab5fbe-fd93-4763-aeb0-78e8f9494804.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-751206971626894382/original/08ab5fbe-fd93-4763-aeb0-78e8f9494804.jpeg?im_w=480"],
+"heading": "Tree house Usha",
+"subheading":"Treehouse in Hiriwadunna, Sri Lanka",
+"bedroom" : 1,
+"bed" : 2,
+"host" : "Dishan",
+"aboutHost" : 7,
+"aboutPlace": "comfortable tree house near by Tank with superior view. bird watching, fishing, mountain view. It's special place you have to go there by board ride. owner will take care of  it safely.By the way you can watch elephant near by your location without taking another elephant watch hour. ",
+"showMore":"comfortable tree house near by Tank with superior view. bird watching, fishing, mountain view. It's special place you have to go there by board ride. owner will take care of it safely.By the way you can watch elephant near by your location without taking another elephant watch hour.you can fishing walking by 50 meters if you interest. toiled and bathroom on tree how nice will be that experience.",
+"text1":["Top 10% of homes","This home is highly ranked based on ratings, reviews and reliability"],
+"text2":["Dedicated Workshop","A room with wifi that's well suited for working."],
+"text3":["Free cancellation before 11 May","Get a full refund if you change your mind."]
       },
       {
         "id": 3,
@@ -130,7 +234,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-50296444/original/c693610c-9fcb-4f59-8bea-345d619930e9.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-50296444/original/3aba2b45-a815-487b-9f58-b701a3c61829.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-50296444/original/b9028a72-4295-406e-85ac-0de896e6c03a.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-50296444/original/7da56314-2935-43a1-bf22-141a35d96cb5.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-50296444/original/7da56314-2935-43a1-bf22-141a35d96cb5.jpeg?im_w=480"],
+"heading": "The Tree House",
+"subheading":"Treehouse in New Delhi,India",
+"bedroom" : 3,
+"bed" : 3,
+"host" : "Manager",
+"aboutHost" : 5,
+"aboutPlace": "You won't forget your time in this romantic, memorable place.",
+"showMore":"You won't forget your time in this romantic, memorable place.",
+"text1":["Self check-in","Check yourself in with the lockbox."],
+"text2":["Furry friends welcome","Bring your pets along for the stay."],
+"text3":["Free cancellation before 4 May","Get a full refund if you change your mind."]
       },
       {
         "id": 4,
@@ -141,7 +256,18 @@
       "https://a0.muscache.com/im/pictures/hosting/Hosting-576688380125697655/original/0204abbc-e921-4501-b742-54566301739b.jpeg?im_w=480",
       "https://a0.muscache.com/im/pictures/miso/Hosting-576688380125697655/original/e5a2a0d3-4056-4e8f-86c8-fd1c2392ccc6.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-576688380125697655/original/df3b54fd-d594-4913-8b09-06a5f8661c4d.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-576688380125697655/original/830b3a9b-a446-4c59-affa-8c467ece6e1c.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-576688380125697655/original/830b3a9b-a446-4c59-affa-8c467ece6e1c.jpeg?im_w=480"],
+"heading": "Himalayan Abode Tree House in Sainj Valley",
+"subheading":"Treehouse in Sainj, India",
+"bedroom" : 1,
+"bed" : 1,
+"host" : "Anoop",
+"aboutHost" : 1,
+"aboutPlace": "This exquisite Tree House in the beautiful valley of Sainj is one of it's kind offering. You can enjoy the jaw-dropping view of snow-capped glaciers from the luxury of your soft, comfortable bed or explore the amazing treks to mountains, waterfalls and meadows around. Feel the warmth of the local host who assures you of the perfect hospitality.",
+"showMore":"Surrounded by lush green farmland and apple orchards, the Tree House contains a master bedroom, an attic and an attached washroom (with bathtub) along with three well-placed balconies that offers an unmatched view of the Himalayan range. There is a cafe with an indoor fireplace, a patio and a bonfire area available in case the guests want to enjoy the outdoors.",
+"text1":["Dedicated workspace","A room with wifi that’s well suited for working."],
+"text2":["Self Check-in","You can check in with the building staff"],
+"text3":["Anoop is a superhost","Superhosts are experienced and highly rated hosts"]
       },
       {
         "id": 5,
@@ -152,7 +278,18 @@
       "https://a0.muscache.com/im/pictures/1ab67648-92a6-49f2-9553-77a0ff844b3c.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/58e9937c-c07f-41f5-90cb-e2b2647af6ac.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/c8a14f63-268a-4757-a166-bf3a4d8f3dcc.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/84bf953c-bdd6-40f9-be31-ba452900716d.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/84bf953c-bdd6-40f9-be31-ba452900716d.jpg?im_w=480"],
+"heading": "Pine Wood Tree House, Tandi, Jibhi",
+"subheading":"Entire cabin in Jibhi, India",
+"bedroom" : 1,
+"bed" : 2,
+"host" : "Dishan",
+"aboutHost" : 7,
+"aboutPlace": "Beautifully located in a small village called Tandi, a 10km serene drive/ride from Jibhi. And just 50 metre walking from the parking area. Once you are in our treehouse , you will get to see of a kind breathtaking view of the mountains.  We cook delicious traditional Himachali food as well as the food that you really want to have it here at our treehouse while enjoying the view",
+"showMore":"The house is entirely made with lots of love and Deodar wood. It's literally standing while hugging an old Oak tree. There is one master bedroom along with balcony also a loft at upstairs that accommodate two people with balcony.",
+"text1":["Top 10% of homes","This home is highly ranked based on ratings, reviews and reliability"],
+"text2":["Dedicated Workshop","A room with wifi that's well suited for working."],
+"text3":["Free cancellation before 11 May","Get a full refund if you change your mind."]
       },
       {
         "id": 6,
@@ -163,7 +300,18 @@
       "https://a0.muscache.com/im/pictures/339d99dd-bf5f-437c-8101-cc35c4d7e484.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/5dee121d-07a8-4ff4-96bd-73256e83536b.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/e4bdd8ec-7213-4b75-8e62-be08c9f3affe.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/48604e03-ee52-4d39-a148-11dcf355a531.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/48604e03-ee52-4d39-a148-11dcf355a531.jpg?im_w=480"],
+"heading": "Tree house",
+"subheading":"Private room in treehouse in Kozhikode, India",
+"bedroom" : 1,
+"bed" : 1,
+"host" : "Manager",
+"aboutHost" : 5,
+"aboutPlace": "In every walk in with nature one receives far more than he seeks. Visited the pace of nature with the mesmerizing freshess of pure air along with mist at Hillock Mountains. Enjoyed the the sunrise over a wide-open country field, morning rain glistening on forest trees, and snow-covered mountaintop peaks. Recommended to all nature lovers. ",
+"showMore":"In every walk in with nature one receives far more than he seeks. Visited the pace of nature with the mesmerizing freshess of pure air along with mist at Hillock Mountains. Enjoyed the the sunrise over a wide-open country field, morning rain glistening on forest trees, and snow-covered mountaintop peaks. Recommended to all nature lovers.Let your mind , body and soul find eternal joy in nature's coolness Location kozhikode, Kerala #forest #nature #familytrips #mist #love #beauty",
+"text1":["Self check-in","Check yourself in with the lockbox."],
+"text2":["Furry friends welcome","Bring your pets along for the stay."],
+"text3":["Free cancellation before 4 May","Get a full refund if you change your mind."]
       },
       {
         "id": 7,
@@ -174,7 +322,18 @@
       "https://a0.muscache.com/im/pictures/dedbd294-cc75-4e68-8430-d5b905beb345.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/0d1df1df-4664-47cf-b0b6-b29331deea19.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/566cf02d-86ed-4dd0-84f8-369a09d54827.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/0780d383-fa9e-4056-9ba5-4a878d67d15b.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/0780d383-fa9e-4056-9ba5-4a878d67d15b.jpg?im_w=480"],
+"heading": "Casita Mimosa/ Hot tub - Duende Hotel - Nat. Park",
+"subheading":"Private room in treehouse in Lagodekhi, Georgia",
+"bedroom" : 1,
+"bed" : 2,
+"host" : "Dishan",
+"aboutHost" : 7,
+"aboutPlace": "Duende Treehouses and Cocktails  is a glamping boutique property with views of the Lagodekhi National Park.",
+"showMore":"Duende Treehouses and Cocktails offer a choice of   Treehouse cottages with views to the forest, river or mountains. Each cottage offers its own private area, firepit and some of them a cold plunge pool or hot-tub",
+"text1":["Dedicated workspace","A room with wifi that's well suited for working."],
+"text2":["Self Check-in","You can check in with the building staff"],
+"text3":["Anoop is a superhost","Superhosts are experienced and highly rated hosts"]
       },
       {
         "id": 8,
@@ -185,7 +344,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-767926300747814027/original/30466595-c320-400e-91c9-36e5f85ffb21.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-767926300747814027/original/069c3260-9ba1-4c7d-b48e-1664b576e7f2.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-767926300747814027/original/5c5b9dfd-8da6-411a-8b7a-70f7ff554914.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-767926300747814027/original/bc2ae59c-f2d3-4b38-85a1-84d51a621768.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-767926300747814027/original/bc2ae59c-f2d3-4b38-85a1-84d51a621768.jpeg?im_w=480"],
+"heading": "Stunning bamboo tree house in cat garden",
+"subheading":"Treehouse in Thailand, Thailand",
+"bedroom" : 3,
+"bed" : 3,
+"host" : "Manager",
+"aboutHost" : 5,
+"aboutPlace": "We welcome you to stay in unique place in the middle of nature.",
+"showMore":"You do not necessarily have to be a cat lover to enjoy your stay with us, but it’s a huge advantage since you’ll be surrounded by 59 rescued stray cats, who live happily in a 2500 sqm fenced garden area where also the amazing three stories bamboo tree house for your unforgettable stay is situated.",
+"text1":["Self check-in","Check yourself in with the lockbox."],
+"text2":["Furry friends welcome","Bring your pets along for the stay."],
+"text3":["Free cancellation before 4 May","Get a full refund if you change your mind."]
       }
     ],
     "AmazingViews": [
@@ -198,7 +368,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-694576369161952366/original/39abb521-a57d-405d-a6ea-906be104637c.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-694576369161952366/original/a765aa83-c531-4efe-9600-894add0463e3.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-694576369161952366/original/faff185d-a8d6-4c9e-9002-4357aa2f43d1.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-694576369161952366/original/b32fea9c-af09-4f51-b69a-bd808128a999.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-694576369161952366/original/b32fea9c-af09-4f51-b69a-bd808128a999.jpeg?im_w=480"],
+"heading": "StayVista at Eastbury 3BR w/ incredible views",
+"subheading":"Entire villa in Mashobra, India",
+"bedroom" : 3,
+"bed" : 3,
+"host" : "Gursimran",
+"aboutHost" : 5,
+"aboutPlace": "Perched on a slope in a tranquil position, you'll find this beautiful cottage with the most incredible views. In fact, at the breathtaking Eastbury; every window is a view. An ideal location for mountain-lovers & hiking enthusiasts, one would feel like the Himalayas are hugging you at all times when you stay here. The ground floor of this European-inspired mountain home offers a contemporary living area that gives you an extremely homely feel, with the big, plump modern sofas.",
+"showMore":"Blessed with private balconies, each bedroom at this home is a private oasis on its own. It is just perfect for enjoying your morning coffee while you breathe in that crisp, clean mountain air. Each season here can only be described as magical. In the summers, Set off to explore the Mall Road and Shimla Ridge just a short drive away from the villa and in the winters, you can go skiing or enjoy a snow-fight followed by a glass of wine with a movie.",
+"text1":["Park for free","This is one of the few places in the area with free parking."],
+"text2":["Experienced host","Gursimran has 69 reviews for other places."],
+"text3":["Great communication","90% of recent guests rated Gursimran 5-star in communication."]
       },
       {
         "id": 2,
@@ -209,7 +390,18 @@
       "https://a0.muscache.com/im/pictures/df4a61cd-f5f8-42e1-92fe-c7d953b6fabb.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/2b9983af-5542-42e4-b5a3-2867477b53ae.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/ea1d5d90-f454-440b-9d9d-7e3a4c8aad96.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/87f6662f-1feb-418d-bbe3-cf7079d5495f.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/87f6662f-1feb-418d-bbe3-cf7079d5495f.jpg?im_w=480"],
+"heading": "Zostel Shangarh | Standard Private Room",
+"subheading":"Private room in hostel in India",
+"bedroom" :1,
+"bed" :1,
+"host" : "Dharamveer Singh",
+"aboutHost" : 6,
+"aboutPlace": "Our Hostel in Shangarh is nestled under the verdant, forested mountain ranges of the Great Himalayan National Park. Dipped in scenic beauty and a meditative quiet air, this backpackers’ hostel in Himachal Pradesh offers sublime views of snow-capped mountains with an environment suited for artists, digital nomads, and creators.",
+"showMore":"A vast common area at the rooftop invites you in with board games, cosy reading spots, a giant hammock, swings, and workstations with internet. Alongside, the hostel hosts the perfect environment for travellers to work, explore, and live with spaces like a bonfire area, private balconies, a local-favourite restaurant, and outdoor spaces for rejuvenation. To start the day, resort to the hostel’s common spaces made for yoga, music, meditation, art, and work alike. Relish fine meals with a splendid valley view, enjoying dishes from the Indian and continental cuisines. And to explore, take a walk at the nearby meadows and settlements or hike to the hidden waterfalls, and go birdtwatching on the winding trails of the national park. As evening approaches, enjoy a bonfire and set up your camp in the garden or resort to our spacious, mud-walled private rooms or warm and cosy dorms for a restful sleep.",
+"text1":["Self check-in","You can check in with the building staff."],
+"text2":["Park for free","This is one of the few places in the area with free parking."],
+"text3":["Free cancellation before 14 May","Get a full refund if you change your mind."]
       },
       {
         "id": 3,
@@ -220,7 +412,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-668620215138733009/original/2e573684-fd2d-4046-b67a-2aae9b85a49c.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-668620215138733009/original/cb909398-b655-4791-9945-58b67b143226.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-668620215138733009/original/a2964715-5b45-4fe0-8060-ee39881568b3.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-668620215138733009/original/b0b42c1d-085b-4240-bee3-f24ad719658e.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-668620215138733009/original/b0b42c1d-085b-4240-bee3-f24ad719658e.jpeg?im_w=480"],
+"heading": "Wooded attic suite in Boutique Cottage, Manali",
+"subheading":"Room in Manali, India",
+"bedroom" : 2,
+"bed" : 2,
+"host" : "Tra",
+"aboutHost" : 5,
+"aboutPlace": "Tra - A Boutique stay, is a premium take on a home stay. Your host, Kanupriya, lives at the cottage to make your stay utmost comfortable and enriched.",
+"showMore":"We are located on Naggar Manali road ( with superb road condition) in the midst of serene apple orchards, overlooking the tranquil snow-clad Himalayas, visible from your windows and balconies, in the most picturesque valley of the Pir-Pranjal range",
+"text1":["Room in a cottage","Your own room in a home, plus access to shared spaces."],
+"text2":["Shared common spaces","You'll share parts of the home with other guests."],
+"text3":["Private attached bathroom","This place has a bathroom that's connected to your room"]
       },
       {
         "id": 4,
@@ -231,7 +434,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/1479b1a0-ee19-49a6-94e4-3c43049776c0.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/cd0c1eba-74bd-4d6b-9ec3-20c6dd8b5226.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/3ac04d3f-b4f5-4d01-8258-8083979c792e.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/7e7f4c4a-c496-4844-bd02-44e276b41718.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-614375154474735110/original/7e7f4c4a-c496-4844-bd02-44e276b41718.jpeg?im_w=480"],
+"heading": "Sooty's Hideout ~ Beat the Blues Room",
+"subheading":"Room in Shangarh, India",
+"bedroom" : 3,
+"bed" : 3,
+"host" : "Gursimran",
+"aboutHost" : 5,
+"aboutPlace": "Sooty's Hideout is located inside the great Himalayan National Park and offers you an authentic experience of luxury while being close to the nature; after all, the backyard to your room is the jungle!",
+"showMore":"Sooty's Hideout is located inside the great Himalayan National Park and offers you an authentic experience of luxury while being close to the nature; after all, the backyard to your room is the jungle!We have retained the old world charm of rustic old infrastructure that was abandoned 2 decades ago. However, it now also offers you some city conveniences of spacious rooms and attached bathrooms with well-equipped furnishing.",
+"text1":["Park for free","This is one of the few places in the area with free parking."],
+"text2":["Experienced host","Gursimran has 69 reviews for other places."],
+"text3":["Great communication","90% of recent guests rated Gursimran 5-star in communication."]
       },
       {
         "id": 5,
@@ -242,7 +456,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-54175042/original/c66858ed-4347-4b7d-bdee-9f4802e1579c.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-54175042/original/16e474ea-f567-461c-9188-edb792945977.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-54175042/original/f82e07c5-4a16-46ad-88b1-fbb30942d5f4.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-54175042/original/2e2a6a84-421f-4d8f-b4c1-5d0619d342cf.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-54175042/original/2e2a6a84-421f-4d8f-b4c1-5d0619d342cf.jpeg?im_w=480"],
+"heading": "WHITE DEN -2bhk Heated Flat -By HomestayDaddy",
+"subheading":"Entire apartment in Dharampur, India",
+"bedroom" :1,
+"bed" :1,
+"host" : "Dharamveer Singh",
+"aboutHost" : 6,
+"aboutPlace": "Located amidst nature, where wind is pine scented and chirping of birds feels like a melody. this beautiful home offers an elegant 2 Bedroom Space  with stylish decor and Modern Amenities. ",
+"showMore":"It's a brand new building, Five of the apartments are complete and rest are under construction. It's on third floor accessible by stairs and lift also. Also this is a developing estate, you can experience construction sometimes. But construction is totally out of our hands. We try our best to give delightful experience to our guests.",
+"text1":["Self check-in","You can check in with the building staff."],
+"text2":["Park for free","This is one of the few places in the area with free parking."],
+"text3":["Free cancellation before 14 May","Get a full refund if you change your mind."]
       },
       {
         "id": 6,
@@ -253,7 +478,18 @@
       "https://a0.muscache.com/im/pictures/372c4bd8-679d-4aab-8f1b-028ceb4703d5.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-583114171055927129/original/860f5a6e-c587-4d96-ab22-94cfa2913d9a.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/cc702010-6e15-4102-8d4a-3ab2a1d8a915.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/45978c48-ed89-44ca-b6b7-ed5418eb6a2c.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/45978c48-ed89-44ca-b6b7-ed5418eb6a2c.jpg?im_w=480"],
+"heading": "THE LUXURY STAYS BY GLAMBIRDS 2BHK HOME STAY",
+"subheading":"Entire apartment in Solan, India",
+"bedroom" : 2,
+"bed" : 2,
+"host" : "Tra",
+"aboutHost" : 5,
+"aboutPlace": "THE LUXURY STAYS BY GLAMBIRDS* A PREMIUM FAMILY FRIENDLY HOME STAY, NESTED IN KASAULI HILLS AT THE MALL SOLAN, HIMACHAL PRADESH.",
+"showMore":"INSPIRED BY THE EUROPEAN ARCHITECTURE, THE AMBIENCE OF OUR HOMESTAY IS ONE OF ITS KINDS.THE ROOM IS DESIGNED TO PROVIDE YOU WITH UTMOST STYLE, LUXURY & COMFORT WITH A LEISURE FEEL WHILE OVERLOOKING VALLEYS OF KASAULI HILLS.AT TIMES OUR HOME STAY ALSO WITNESS SNOW FALL WHICH WILL MAKE YOU FALL IN LOVE WITH THIS PLACE.",
+"text1":["Room in a cottage","Your own room in a home, plus access to shared spaces."],
+"text2":["Shared common spaces","You'll share parts of the home with other guests."],
+"text3":["Private attached bathroom","This place has a bathroom that's connected to your room"]
       },
       {
         "id": 7,
@@ -264,7 +500,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-20273278/original/ddc4af6b-a982-4924-a8ae-f1e147a7b97b.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/e6a26d84-38c1-4e86-8314-90faad9d522d.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/e59fecf0-fcdb-4462-b02e-b6b588fef6b9.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-20273278/original/d702ec69-c9c3-4f7c-927e-4e53cebeeb2d.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-20273278/original/d702ec69-c9c3-4f7c-927e-4e53cebeeb2d.jpeg?im_w=480"],
+"heading": "Sun View Mountain Cabin in Gargi village",
+"subheading":"Room in Kasol,India",
+"bedroom" : 3,
+"bed" : 3,
+"host" : "Gursimran",
+"aboutHost" : 5,
+"aboutPlace": "Step into an abode miles away from the noises of modern day life and travel almost back in time to a heavenly place. ",
+"showMore":"This mountain cabin is built with old Himalayan techniques fused with modern day amenities like Western Style toilet, Hot Shower, Laundry on-site, a fully-functioning restaurant, and clean, spacious rooms, and wifi.",
+"text1":["Park for free","This is one of the few places in the area with free parking."],
+"text2":["Experienced host","Gursimran has 69 reviews for other places."],
+"text3":["Great communication","90% of recent guests rated Gursimran 5-star in communication."]
       },
       {
         "id": 8,
@@ -275,7 +522,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-695266101459546026/original/e49fb204-859d-4762-84d2-fbe287607056.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-695266101459546026/original/28e96eb2-f7ea-45f7-8f5c-2c08892c2e10.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-695266101459546026/original/242615ba-990f-4578-9a20-4faa7a0eaad3.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-695266101459546026/original/af1bdbb6-7309-410d-a40c-037aba84b1af.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-695266101459546026/original/af1bdbb6-7309-410d-a40c-037aba84b1af.jpeg?im_w=480"],
+"heading": "Zostel Homes Harabhag | Deluxe Private Room",
+"subheading":"Room in Harabhag, India",
+"bedroom" : 2,
+"bed" : 2,
+"host" : "Tra",
+"aboutHost" : 5,
+"aboutPlace": "Set amidst verdant rice farms and surrounded by lush mountains, Zostel Home Harabhag (Mandi) invites you for rejuvenation and solitude. Spend your days indulging in the slow life, as you take a soothing walk in the rice paddies, relish wholesome meals at the home, and gaze at starry skies with us",
+"showMore":"Galore of rice paddies, sylvan water streams, and verdant hills, Harabhag welcomes you to the slow-paced life of Himachal Pradesh. It is a small farming village in the foothills of the mighty Dhauladar range, 20 km from Bir. Harabhag wins at blissful mountain experiences such as village walks, nature hikes, and picnics by the meandering streams.",
+"text1":["Self check-in","You can check in with the building staff."],
+"text2":["Park for free","This is one of the few places in the area with free parking."],
+"text3":["Free cancellation before 14 May","Get a full refund if you change your mind."]
       }
     ],
     "Surfing": [
@@ -288,7 +546,18 @@
       "https://a0.muscache.com/im/pictures/8ecf49af-d485-4a01-b312-c194a76916c4.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/3e2244ca-e171-4a90-a28b-fa675c608c17.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/8a5c86f1-1dcf-440b-8063-4c01f3509e2e.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/b5a89043-4595-443d-8168-27c217bd633d.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/b5a89043-4595-443d-8168-27c217bd633d.jpg?im_w=480"],
+"heading": "Rainbow Villa Shoowa Cape Yamu Luxury Sea View Villa with Butler Maid Breakfast",
+"subheading":"Entire villa in Paklok, Thailand",
+"bedroom" : 7,
+"bed" : 8,
+"host" : "Vivian",
+"aboutHost" : 5,
+"aboutPlace": "Villa Shoowa is situated on the tranquil Cape Yamu Peninsula, the villa is 4000,000 sqm of land, the building is 1400 sqm and has a panoramic view of the Andaman Sea.The villa is fully furnished with fine teak wood and furniture imported from Italy, blending contemporary Thai and European styles for a feeling of balance and comfort",
+"showMore":"There are a total of 7 bedrooms in the villa. Time slows as the sea breeze lifts the curtains of the sea view rooms, allowing sunshine and a view of the blue sea to enter the rooms.Villa SHOOWA Cape Yamu offers guests a complimentary breakfast with Chinese, English and Thai flavors. The housekeeper and maids will communicate with guests in advance to ensure a delicious and exquisite breakfast is prepared.With a Dolby surround-sound room where you can watch lots of films. A 20m long infinity private pool with a view of the ocean.We provide luxurious natural plant bath products for our guests.The villa is has Chinese, English and Thai-speaking housekeepers and a live-in housemaid who will provide guests with quality and thoughtful service. The housekeeper can also plan tours for guests for free.The villa can accommodate 14 people, more than the number of people, 6-11 years old pay 1000 baht per night per person, 12 years old and above 2000 baht per person.The villa offers 3 kWh (1 kWh in the villa is equivalent to 40 kWh), and the excess is charged at 240 baht per kWh.A security deposit of 20,000 baht is required upon check-in.",
+"text1":["Great check-in experience","100% of recent guests gave the check-in process a 5-star rating."],
+"text2":["Dive right in","This is one of the few places in the area with a pool."],
+"text3":["Highly rated host","This host has received 5-star ratings from 100% of recent guests."]
       },
       {
         "id": 2,
@@ -299,7 +568,18 @@
         "https://a0.muscache.com/im/pictures/24f50efb-2af9-4d53-a6b1-e69f54d1f5ba.jpg?im_w=480",
       "https://a0.muscache.com/im/pictures/7efa4d11-4883-4933-92c5-ca357537b76d.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/96a8e61d-ee9a-4e89-ae86-98cafa0a2713.jpg?im_w=480",
-  "https://a0.muscache.com/im/pictures/8905d038-5a49-4d58-b5b9-75cea083284e.jpg?im_w=480"]
+  "https://a0.muscache.com/im/pictures/8905d038-5a49-4d58-b5b9-75cea083284e.jpg?im_w=480"],
+  "heading": "Camper by the bay",
+  "subheading":"Entire home in Vypin, India",
+  "bedroom" : 5,
+  "bed" : 7,
+  "host" : "Swahel",
+  "aboutHost" : 6,
+  "aboutPlace": "stunning modern beach house on the Vypin Islands. The property boasts 5 ensuite bedrooms and offers exceptional views of the Arabian Sea, with direct access to the beautiful Cherai beach. The ideal destination for out-of-town groups, family get-togethers, anniversaries, bachelor/bachelorette parties, baby showers, birthday parties, team outings, and more.",
+  "showMore":"The 18 km long Cherai Beach is the one of the most popular beaches of Ernakulam district aka Kochi city. The beach is shallow and ideal for swimming and sunbathing except for the monsoon season(July-Sep), the sunsets are vivid and a sight in itself, dolphins are also seen regularly. Unique to Cherai the neighbourhood has narrow roads, lagoons and the world famous kerala backwaters. We are located just 500m from the main beach promenade with a large number of cafes, restaurants and beach activities.",
+  "text1":["Dedicated workspace","A common area with wifi that's well suited for working"],
+  "text2":["Self check-in","You can check in with the building staff."],
+  "text3":["Free cancellation before 3 May","Get a full refund if you change your mind."]
       },
       {
         "id": 3,
@@ -310,7 +590,18 @@
       "https://a0.muscache.com/im/pictures/53bacbbd-c2c1-4c98-a989-d27b6f7b6fac.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/79931548/ff75f30f_original.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/902eda02-3bdf-47d8-ad9b-514adb92d1ea.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/2cd3bb01-e46a-4d60-a3d0-9c6a7dc8d8f4.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/2cd3bb01-e46a-4d60-a3d0-9c6a7dc8d8f4.jpg?im_w=480"],
+"heading": "Villa Amonteera",
+"subheading":"Entire villa in Choeng Thale, Thailand",
+"bedroom" : 11,
+"bed" : 11,
+"host" : "Carl Magnus",
+"aboutHost" : 9,
+"aboutPlace": "This magnificent, modern, fully staffed (chef and driver) private villa has some of the best ocean views on Phuket. 9 of our 10 main bedrooms with king size beds have magnificent views, beautiful en-suite bathrooms with jacuzzis (7 out of 10), large flat screen TVs, and built in closets. ",
+"showMore":"Majestically located on a hill overlooking Bangtao and Surin beaches (the latter hidden by trees), Villa Amonteera has some of the best views on Phuket and exudes modern luxury and opulence at every turn. The architecture of Villa Amonteera makes the most of the outstanding views, which are hard to match even on Phuket.The 8 king size bed rooms are decorated in modern fashion with built in closets, 46-55 inch flat screen TVs with satellite TV and DVD players, airconditioning, balconies, and en-suite bathrooms with showers and jacuzzis (all but one). The Master Bedroom Suite consists of one of the king size rooms, located on the corner with large windows, and the room with a queen sized bed. The two spaces share a bathroom which has two showers rather than a shower and a jacuzzi.",
+"text1":["Self check-in","You can check in with the building staff."],
+"text2":["Dedicated workspace","A common area with wifi that's well suited for working"],
+"text3":["Free cancellation before 3 May","Get a full refund if you change your mind."]
       },
       {
         "id": 4,
@@ -321,7 +612,18 @@
       "https://a0.muscache.com/im/pictures/da6903a6-d7f9-401b-af5e-b7493d8b516d.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/634a3e98-4276-4269-b651-da5807bae888.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/994f2bee-0161-4db1-8302-4f19ed50aff9.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/afea3ebf-2064-435b-93d7-365b054f3081.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/afea3ebf-2064-435b-93d7-365b054f3081.jpg?im_w=480"],
+"heading": "Making Paradise Home. 6 Bedroomed Beach Villa",
+"subheading":"Entire villa in Talpe, Sri Lanka",
+"bedroom" : 5,
+"bed" : 7,
+"host" : "Swahel",
+"aboutHost" : 6,
+"aboutPlace": "Auraliya sits in an acre of tropical garden adorned by frangipani trees and coconut palms with breathtaking views. Our six bedroomed villa is located on Palutagaha beach, which when weather patterns permit is a beautiful coral-reef-protected sandy beach",
+"showMore":"Auraliya sits in an acre of tropical garden adorned by frangipani trees and coconut palms with breathtaking views. Our six bedroomed villa is located on Palutagaha beach, which when weather patterns permit is a beautiful coral-reef-protected sandy beach. At other times the beach-view becomes a sea-view and stick fishermen frequent the lagoon. A sandy plage is maintained inside the sea-wall at all times for children to play in. Auraliya can comfortably accomodate a maximum of twelve guests.",
+"text1":["Dedicated workspace","A common area with wifi that's well suited for working"],
+"text2":["Self check-in","You can check in with the building staff."],
+"text3":["Free cancellation before 3 May","Get a full refund if you change your mind."]
       },
       {
         "id": 5,
@@ -332,7 +634,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-940240916901609633/original/c6c020c2-f1c5-4ba1-a19d-7d3929d49456.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-940240916901609633/original/0f91f2e3-0161-4654-87cc-790ce18053d9.jpeg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-940240916901609633/original/25bb1e78-6556-4a83-94f3-1a7fbbe7f295.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-940240916901609633/original/511db4d2-0b80-4a9f-8ad2-d209e8180af1.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-940240916901609633/original/511db4d2-0b80-4a9f-8ad2-d209e8180af1.jpeg?im_w=480"],
+"heading": "5-bedroom villa Phuket",
+"subheading":"Entire home in Thailand",
+"bedroom" :6 ,
+"bed" : 8,
+"host" : " Auraliya Villa Management Private",
+"aboutHost" : 9,
+"aboutPlace": "The villa is located about 500 meters to the right of the dolphin carousel on Patong 1st Street. Has five bedrooms and six bathrooms (3 rooms with 2-meter beds, 2 rooms with 1.8-meter beds)",
+"showMore":"Western-style kitchen + Chinese-style kitchen (double-burner gas stove) The terrace overlooks the 270-degree first-line sea view of Patong Beach, Mahjong machine/billiards/table football/table tennis/massage chair/SPA bed are all available.",
+"text1":["Great check-in experience","100% of recent guests gave the check-in process a 5-star rating."],
+"text2":["Dive right in","This is one of the few places in the area with a pool."],
+"text3":["Highly rated host","This host has received 5-star ratings from 100% of recent guests."]
       },
       {
         "id": 6,
@@ -343,7 +656,17 @@
       "https://a0.muscache.com/im/pictures/b681d4cd-5ac1-4957-b356-ce73c4bf5949.jpg?im_w=240",
     "https://a0.muscache.com/im/pictures/ef2394da-002e-439a-a5af-bbb0a7faf08c.jpg?im_w=240",
   "https://a0.muscache.com/im/pictures/d3571130-beaf-45c5-ba1a-db9e5f2c5b7c.jpg?im_w=240",
-"https://a0.muscache.com/im/pictures/8686da5f-9ea3-4487-9579-7d4ee7caf7f1.jpg?im_w=240"]
+"https://a0.muscache.com/im/pictures/8686da5f-9ea3-4487-9579-7d4ee7caf7f1.jpg?im_w=240"],
+"heading": "",
+"bedroom" : 5,
+"bed" : 7,
+"host" : "Swahel",
+"aboutHost" : 6,
+"aboutPlace": "",
+"showMore":"",
+"text1":["Self check-in","You can check in with the building staff."],
+"text2":["Dedicated workspace","A common area with wifi that's well suited for working"],
+"text3":["Free cancellation before 3 May","Get a full refund if you change your mind."]
       },
       {
         "id": 7,
@@ -354,7 +677,18 @@
       "https://a0.muscache.com/im/pictures/8f24de8b-68a0-40f2-8e04-206907ebd8dc.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/88aac270-f5d6-4a11-be79-ade318482b66.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/8942fd4d-633d-45e6-924f-a7bdbc64becd.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/302471db-6646-4734-9067-b31529e9a0f4.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/302471db-6646-4734-9067-b31529e9a0f4.jpg?im_w=480"],
+"heading": "Deep space cabin On a Quiet beach",
+"subheading":"Tiny home in Ko Lanta District, Thailand",
+"bedroom" : 1,
+"bed" : 1,
+"host" : "Carl Magnus",
+"aboutHost" : 9,
+"aboutPlace": "DEEPSPACE X1 is the hidden modern house on the Last address of Saladan pier street.Isolate deep in the quiet fisherman village with a soundless private beach",
+"showMore":"Guest can enjoy fresh seafood from fisherman boat every day.The house is located in the most Convenience area in Koh Lanta. Surround by Biggest Groceries Store m Famous Restuarant Pier, Hospital",
+"text1":["Great check-in experience","100% of recent guests gave the check-in process a 5-star rating."],
+"text2":["Dive right in","This is one of the few places in the area with a pool."],
+"text3":["Highly rated host","This host has received 5-star ratings from 100% of recent guests."]
       },
       {
         "id": 8,
@@ -365,7 +699,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-838041407011823351/original/74e622fc-70d4-45cb-a4a6-6fc82a181b5e.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/fcaec5ed-7762-4846-acdd-a48e9b267e1e.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/1dc0199f-b752-481c-a500-04278b13b4f0.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-838041407011823351/original/dc387f08-5317-428c-bff2-796276305d07.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-838041407011823351/original/dc387f08-5317-428c-bff2-796276305d07.jpeg?im_w=480"],
+"heading": "Anchorage - The Beach Villa",
+"subheading":"Entire villa in Thrissur, India",
+"bedroom" :6 ,
+"bed" : 8,
+"host" : " Auraliya Villa Management Private",
+"aboutHost" : 9,
+"aboutPlace": "Escape to your own private paradise at Anchorage - a stunning Beachfront villa that offers the ultimate in luxury and relaxation. Located right on the sandy shores, you'll wake up to the sound of waves crashing and the feel of sea breezes on your skin",
+"showMore":"Escape to your own private paradise at Anchorage - a stunning Beachfront villa that offers the ultimate in luxury and relaxation. Located right on the sandy shores, you'll wake up to the sound of waves crashing and the feel of sea breezes on your skin. With breathtaking ocean views from every room, Anchorage is the perfect retreat for those seeking the ultimate beachfront experience. Anchorage has everything you need for an unforgettable getaway. Come and discover your own piece of paradise.",
+"text1":["Self check-in","You can check in with the building staff."],
+"text2":["Dedicated workspace","A common area with wifi that's well suited for working"],
+"text3":["Free cancellation before 3 May","Get a full refund if you change your mind."]
       }
     ],
     "Castles": [
@@ -381,12 +726,16 @@
                   "https://a0.muscache.com/im/pictures/35f1327f-8a5d-4a5c-9343-c23856368531.jpg?im_w=480"
                 ],
         "heading": "8 rooms @Castle Oodeypore",
+        "subheading":"Room in Bujra, India",
         "bedroom" : 8,
         "bed" : 8,
         "host" : "Nirmal",
         "aboutHost" : 5,
         "aboutPlace": "Castle Oodeypore is a palatial homestay, offering a unique experience. It is a home that hosts beautiful people and connects families, friends, and travelers alike, a castle that reminds you of the bygone era, a place for our guests to revel in the timeless beauty of nature.",
-        "showMore":"Built-in the year 2021 Castle Oodeypore is an architectural marvel amidst the foothills of the Aravallis, made from the red sandstone of Bikaner, making it the only red sandstone property in Udaipur."
+        "showMore":"Built-in the year 2021 Castle Oodeypore is an architectural marvel amidst the foothills of the Aravallis, made from the red sandstone of Bikaner, making it the only red sandstone property in Udaipur.",
+        "text1":["Room in a castle","Your own room in a home, plus access to shared spaces."],
+        "text2":["Shared common spaces","You'll share parts of the home with the Host and other guests."],
+        "text3":["Dedicated bathroom","This place has a bathroom that's just for you"]
       },
       {
         "id": 2,
@@ -397,7 +746,18 @@
         "https://a0.muscache.com/im/pictures/miso/Hosting-832355501498041527/original/ca8c5bfa-9fa6-47b8-81c9-4af891d721a4.jpeg?im_w=480",
       "https://a0.muscache.com/im/pictures/miso/Hosting-833065158983976179/original/65edf49f-8a9e-40d8-8e37-a4f598580a5e.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/miso/Hosting-833065158983976179/original/aa9500e6-5f12-443e-ae0f-a6c7aed8525e.jpeg?im_w=480",
-  "https://a0.muscache.com/im/pictures/miso/Hosting-833065158983976179/original/6e9c1a61-294c-483a-a4c5-5c0c389df56a.jpeg?im_w=480"]
+  "https://a0.muscache.com/im/pictures/miso/Hosting-833065158983976179/original/6e9c1a61-294c-483a-a4c5-5c0c389df56a.jpeg?im_w=480"],
+        "heading": "Schloss Wimsbach, Austria - South Suite",
+        "subheading":"Room in Bad Wimsbach-Neydharting, Austria",
+        "bedroom" : 2,
+        "bed" : 2,
+        "host" : "Adrian",
+        "aboutHost" : 5,
+        "aboutPlace": "Wimsbach Castle is in a scenically and culturally exceptional location. Guests enjoy nearly six acres (over 2 hectares) of private park as well as the area's outstanding cultural treasures and proximity to Austria's lake district. The village is embedded in a nature reserve, offering guests endless local walking and biking opportunities. The baroque churches and monasteries in the area are exceptional, and lakes, mountains and beautiful villages like Bad Ischl and Hallstatt are in easy reach.",
+        "showMore":"From this year, fishing on the estate's 6.5 kilometres of river is also available to guests.Another special feature this year is that the Salzkammergut region is a 2024 European Capital of Culture, with numerous associated events and exhibitions.",
+        "text1":["Room in a castle","Your own room in a home, plus access to shared spaces."],
+        "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+        "text3":["Dedicated bathroom","This place has a bathroom that's just for you"]
       },
       {
         "id": 3,
@@ -408,7 +768,18 @@
       "https://a0.muscache.com/im/pictures/751624de-45d1-4917-ab1b-8124fd32fb1a.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/15d8d6d1-dbd7-4eb8-b5b5-5148ffb7cb63.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/933a307e-8b76-448e-8433-24a12fb28841.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-47086741/original/5f02a71a-1fdf-4c1c-94d6-01508fc14745.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-47086741/original/5f02a71a-1fdf-4c1c-94d6-01508fc14745.jpeg?im_w=480"],
+        "heading": "Royal Boutique Hotel - VILA DOMINA",
+        "subheading":"Room in boutique hotel in Sinaia, Romania",
+        "bedroom" : 7,
+        "bed" : 7,
+        "host" : "Sebastian",
+        "aboutHost" : 8,
+        "aboutPlace": "The Lucia Villa Complex entices you to discover the true meaning of chic. A charm forged by the fusion of city comfort and closeness to nature, by the traditional and the modern, the local and the cosmopolitan spirit…",
+        "showMore":"Villa Domina - a petite castle built around the time Peleş was created – welcomes you with its graceful line and its tall, luminous openings. Situated right across the entrance alley that leads to Peles Castle, you will find here a universe of elegance that will unfold before your eyes as you take your first steps. The rooms offer you an oasis of serenity and comfort, and are a perfect place for your holiday.",
+        "text1":["Park for free","This is one of the few places in the area with free parking"],
+        "text2":["Experienced host","Sebastian has 74 reviews for other places."],
+        "text3":["Free cancellation before 2:00 pm on 30 Apr","Get a full refund if you change your mind."]
       },
       {
         "id": 4,
@@ -419,7 +790,18 @@
       "https://a0.muscache.com/im/pictures/89db7ed2-f71f-473b-8c27-1fd8e9236185.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/1d0231a4-cf74-48fa-be31-5fad536bc6ca.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/16741863/c601dbec_original.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/2d1e034c-3647-4789-a42f-586c04f531e5.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/2d1e034c-3647-4789-a42f-586c04f531e5.jpg?im_w=480"],
+        "heading": "Petrongonas family Castle in Mani",
+        "subheading":"Castle in Lakonia, Greece",
+        "bedroom" : 2,
+        "bed" : 6,
+        "host" : "Marios",
+        "aboutHost" : 11,
+        "aboutPlace": "Unique picturesque and authentic tower in a traditional settlement in Southern Peloponnesus. If you want to get to know the real Greece, this is for you! Ideal for excursions across the most beautiful places in Peloponnesus",
+        "showMore":"An authentic, fully furnished, recently renovated castle with great views.Around 2 centuries ago, our grandparents decided to build a castle for their winter stays and to protect themselves from enemies, from the war. On the ground floor you can find the olive press that the residents had in order to make their olive oil.",
+        "text1":["Self check-in","Check yourself in with the lockbox."],
+        "text2":["Furry friends welcome","Bring your pets along for the stay"],
+        "text3":["Dedicated bathroom","This place has a bathroom that's just for you"]
       },
       {
         "id": 5,
@@ -430,7 +812,18 @@
       "https://a0.muscache.com/im/pictures/13557afe-4184-4e9e-8343-47574fec2c29.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/28db9a6a-5ad5-4421-9637-ea5effbb32d5.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/6f96eac0-b702-4351-96ee-b07bb0bb9efb.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/53a10201-a6a3-4a7f-a3c4-b4e15b2d1512.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/53a10201-a6a3-4a7f-a3c4-b4e15b2d1512.jpg?im_w=480"],
+        "heading": "Luxury home Torre Trasita in Positano (6 people)",
+        "subheading":"Castle in Positano, Italy",
+        "bedroom" : 3,
+        "bed" : 3,
+        "host" : "Roberta Marina",
+        "aboutHost" : 9,
+        "aboutPlace": "Luxurious residence in the historic Torre del '500 on the beach in Positano for a wonderful holiday full of unforgettable charm. Independent castle overlooking the sea, sleeps up to 6.",
+        "showMore":"Ideal for a family or group of 6 people who want to live Positano day and night, visit the Coast by sea in total relaxation. The tower is 300 meters from the beach, the pier, shopping center, restaurants, supermarket and take away! It allows you to get around on foot away from traffic and chaos.",
+        "text1":["Roberta Marina is a Superhost","Superhosts are experienced, highly rated Hosts."],
+        "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+        "text3":["Free cancellation before 8 Jun","Get a full refund if you change your mind."]
       },
       {
         "id": 6,
@@ -441,7 +834,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-23654344/original/ddcc0d26-97ba-486c-afb2-81d1422cb82f.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/e352a414-f446-4450-b893-b59bc8bf2295.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/60f422cb-2f1c-48b9-9841-279ebe2f045d.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/e91efc1f-3491-4fb5-94a4-057ab4d1c032.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/e91efc1f-3491-4fb5-94a4-057ab4d1c032.jpg?im_w=480"],
+        "heading": "Lôkes - large and unique Hälsingegård in Järvsö",
+        "subheading":"Castle in Ljusdal V, Sweden",
+        "bedroom" : 6,
+        "bed" : 12,
+        "host" : "Roffe",
+        "aboutHost" : 7,
+        "aboutPlace": "Welcome to stay in a very special Hälsingegård, a world heritage. At Lôkes you meet anthem from the 16th century. The manor house was built as a guest house 1846 and holds a rich history.You live close to skiing, swimming, the river, Järvsö center, Järvzoo, the bicycle park and bike trails, Stene Gård's nice area and all activities Järvsö offers.",
+        "showMore":"In our wooden castle, apart from six different bedrooms, there are also two lounges, three bathrooms and one separate toilets, two kitchens, one of which has room for large parties to have meals. On the front there is also a lovely punch veranda. The farm is 1.2 ha and also houses several other buildings. Three old cultural farm houses, one from the 16th century when the farm originated. In these, it is great to spend the summer in the air mattress. We also have a carriage rider, where you can have an outdoor party, but still sit under the roof.",
+        "text1":["Self check-in","Check yourself in with the lockbox."],
+        "text2":["Park for free","This is one of the few places in the area with free parking."],
+        "text3":["Free cancellation before 4:00 pm on 29 Apr","Get a full refund if you change your mind."]
       },
       {
         "id": 7,
@@ -452,7 +856,18 @@
       "https://a0.muscache.com/im/pictures/97056109/e1bff882_original.jpg?im_w=480",
     "https://a0.muscache.com/im/pictures/97058201/1237cbcb_original.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/97055698/a0c8d85c_original.jpg?im_w=480",
-"https://a0.muscache.com/im/pictures/97057092/7b7f0ff3_original.jpg?im_w=480"]
+"https://a0.muscache.com/im/pictures/97057092/7b7f0ff3_original.jpg?im_w=480"],
+        "heading": "romantic apartment in old castle",
+        "subheading":"Castle in Neumarkt in der Steiermark, Austria",
+        "bedroom" : 2,
+        "bed" : 3,
+        "host" : "Matthias",
+        "aboutHost" : 9,
+        "aboutPlace": "The Castle is located in a Nature-Park, on 850m altitude.",
+        "showMore":"Train station nearby.eCar and eBike - hire available",
+        "text1":["Room in a castle","Your own room in a home, plus access to shared spaces."],
+        "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+        "text3":["Furry Friends welcome","Bring your pets along for the stay."]
       },
       {
         "id": 8,
@@ -463,18 +878,18 @@
       "https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/97eadaf2-185f-4183-b211-f09952d55473.jpeg?im_w=480",
     "https://a0.muscache.com/im/pictures/7b6831f5-d967-422e-a6e0-3f0bedf7d1e6.jpg?im_w=480",
   "https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/cc4be6f1-948b-4668-88b6-76b81d59bb68.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/706f2b69-f5d1-407d-b38f-916d46f67636.jpeg?im_w=480"]
-      },
-      {
-        "id": 9,
-        "name": "Osowa Sien,Poland",
-        "location": "Biult in 1878",
-        "price": "₹2,34,499 night",
-        "images":["https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/347f2682-6824-410c-82b7-7b04489b8a94.jpeg?im_w=960",
-      "https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/97eadaf2-185f-4183-b211-f09952d55473.jpeg?im_w=480",
-    "https://a0.muscache.com/im/pictures/7b6831f5-d967-422e-a6e0-3f0bedf7d1e6.jpg?im_w=480",
-  "https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/cc4be6f1-948b-4668-88b6-76b81d59bb68.jpeg?im_w=480",
-"https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/706f2b69-f5d1-407d-b38f-916d46f67636.jpeg?im_w=480"]
+"https://a0.muscache.com/im/pictures/miso/Hosting-35538426/original/706f2b69-f5d1-407d-b38f-916d46f67636.jpeg?im_w=480"],
+        "heading": "Exclusive Castle Retreat: The Palace at Osowa Sien",
+        "subheading":"Castle in Osowa Sień, Poland",
+        "bedroom" : 17,
+        "bed" : 37,
+        "host" : "Matt and Jamie",
+        "aboutHost" : 8,
+        "aboutPlace": "Welcome to The Palace at Osowa Sien, our private fairytale residence nestled within a 5 Ha park, just 3 hours from Berlin or Warsaw.Perfect for families, corporate groups, or friends, our castle accommodates up to 42 guests and offers amenities like: a cozy Finnish sauna, a wellness studio, a fully-equipped kitchen, a fireplace salon, dining room, a place to dance, terrace and park.",
+        "showMore":"Planning to host a wedding or milestone event here? Please contact us directly if you would like an event services and catering offer. These things cannot be arranged on AirBnB.This is our private residence so we've tried to think of and include all essentials for you to ensure a very comfortable stay including but not limited to:Electric, eco-pellet Heating, firewood for the fireplaces or bonfires, premium all-natural spa towels from Aegean cotton, designer soft-cotton linens from textile designers.",
+        "text1":["Dedicated workspace","A room with wifi that's well suited for working."],
+        "text2":["Shared common spaces","You'll share parts of the home with other guests."],
+        "text3":["Furry Friends welcome","Bring your pets along for the stay."]
       }
     ]
 
