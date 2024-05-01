@@ -1,0 +1,38 @@
+.DateCheck {
+  width: 300px; /* You can adjust width and height as needed */
+  height: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow properties */
+  padding: 5px; /* Add padding to make space for subcomponents */
+  border-radius: 10px;
+}
+.box-heading {
+  font-size: xx-large;
+}
+.select-data {
+  display: flex;
+}
+.rangeDatePicker:hover {
+  border-color: black;
+}
+.rangeDatePicker {
+  padding: 15px;
+}
+.reserve {
+  margin-left: 3px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: larger;
+  border-radius: 10px;
+  color: white;
+  border-color: rgb(215, 37, 88);
+  background-color: rgb(215, 37, 88);
+}
+.reserve-div {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.para {
+  padding-left: 40px;
+}

@@ -27,3 +27,11 @@
 #checkInDate:hover {
   background-color: rgb(243, 239, 239);
 }
+
+.vertical-line {
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  width: 1.5px; /* Width of the lines */
+  background-color: lightgrey; /* Color of the lines */
+}

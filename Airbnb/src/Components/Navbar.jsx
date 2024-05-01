@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css'; 
-import logo from "./assets/logo.png";
+import logo from "./assets/logo.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faUser } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,7 +11,7 @@ function Navbar() {
         <img src={logo} alt="Logo" style={{ height: '100%' }} />
       </div>
       <div className="navbar-links">
-        <p>Stays</p>
+        <p style={{fontSize:'15px',fontWeight:'600'}}>Stays</p>
       </div>
       <div className="navbar-account">
       <a href="#menu">
