@@ -129,10 +129,10 @@ export default function Section2({host}) {
           </li>
         </ul>
       </div>
-    </div>
-=======
+    {/* </div> */}
+{/* // ======= */}
       
     </Grid>
->>>>>>> e24d0f56fc3c8eb48b825d952bd5be86438ab238
+// >>>>>>> e24d0f56fc3c8eb48b825d952bd5be86438ab238
   );
 }
