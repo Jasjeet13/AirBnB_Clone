@@ -102,7 +102,6 @@ export default function Section2({host}) {
           </li>
         </ul>
       </div>
-<<<<<<< HEAD
       <div className="list2">
         <ul>
           <li>
@@ -132,9 +131,7 @@ export default function Section2({host}) {
         </ul>
       </div>
     </div>
-=======
       
     </Grid>
->>>>>>> e24d0f56fc3c8eb48b825d952bd5be86438ab238
   );
 }

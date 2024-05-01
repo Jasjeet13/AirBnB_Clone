@@ -36,7 +36,6 @@ export default function () {
           </ul>
         </div>
       </div>
-      <GuestDropdown />
     </>
   );
 }

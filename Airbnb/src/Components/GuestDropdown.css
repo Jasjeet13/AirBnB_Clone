@@ -9,23 +9,13 @@
 .toggle-button:hover {
   background-color: rgb(243, 239, 239);
 }
-
-/* .dropdown-content {
-  z-index: 1000;
-  display: flex;
-  width: 350px;
-  border-radius: 20px;
-  margin-top: 10px;
-  border: 1px solid rgb(152, 151, 151);
-} */
 .dropdown-content {
-  z-index: 1000;
   display: flex;
   width: 350px;
   border-radius: 20px;
   border: 1px solid rgb(152, 151, 151);
   position: absolute; /* Position the dropdown absolutely */
-  top: calc(100% + 10px); /* Position the dropdown below the toggle button */
+  top: calc(43% + 10px); /* Position the dropdown below the toggle button */
   left: 2; /* Align the dropdown with the left edge of the toggle button */
   background-color: #fff; /* Set background color to white */
 }
