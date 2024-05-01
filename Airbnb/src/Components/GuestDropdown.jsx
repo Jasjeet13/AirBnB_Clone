@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./GuestDropdown.css"; // Import CSS file for styling
+import "./GuestDropdown.css";
 
 const GuestDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,6 @@ const GuestDropdown = () => {
   };
 
   const handleIncrement = (type) => {
-    // Increment count based on type
     switch (type) {
       case "adults":
         setAdults(adults + 1);
@@ -29,7 +28,6 @@ const GuestDropdown = () => {
   };
 
   const handleDecrement = (type) => {
-    // Decrement count based on type
     switch (type) {
       case "adults":
         if (adults > 1) setAdults(adults - 1);
@@ -53,6 +51,56 @@ const GuestDropdown = () => {
         Who <br></br>
         {totalGuests} guests
       </button>
+      {isOpen && (
+        <div className="dropdown-content">
+          {/* Dropdown content here */}
+          <div className="title">
+            <ul>
+              <li>
+                <p>Adults: {adults}</p>
+              </li>
+
+              <li>
+                <p>Children: {children}</p>
+              </li>
+              <li>
+                <p>Infants: {infants}</p>
+              </li>
+            </ul>
+          </div>
+          <div className="addminus">
+            <ul>
+              <li>
+                <button onClick={() => handleIncrement("adults")}>+</button>
+                <button
+                  className="minus"
+                  onClick={() => handleDecrement("adults")}
+                >
+                  -
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleIncrement("children")}>+</button>
+                <button
+                  className="minus"
+                  onClick={() => handleDecrement("children")}
+                >
+                  -
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleIncrement("infants")}>+</button>
+                <button
+                  className="minus"
+                  onClick={() => handleDecrement("infants")}
+                >
+                  -
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

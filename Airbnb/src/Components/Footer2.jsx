@@ -1,4 +1,5 @@
 import "./Footer2.css";
+import GuestDropdown from "./GuestDropdown";
 export default function () {
   return (
     <>
@@ -35,6 +36,7 @@ export default function () {
           </ul>
         </div>
       </div>
+      <GuestDropdown />
     </>
   );
 }
