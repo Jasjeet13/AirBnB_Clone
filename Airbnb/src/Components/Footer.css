@@ -83,25 +83,4 @@ li{
   .footer-social-media a:hover {
     color: #000;
   }
-  
-  /* @media (max-width: 768px) {
-    .container {
-      width: 95%;
-    }
-    .row {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .col {
-      margin-bottom: 20px;
-    }
-    .list-side, .Rightside {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .footer-social-media {
-      margin-top: 10px;
-    }
-  } */
 
-  
