@@ -1,14 +1,15 @@
 import React from "react";
-import DateSelector from "./Components/DateSelector";
-import SearchBox from "./Components/SearchBox";
 import AboutPlace from "./Components/AboutPlace";
-import Reserve from "./Components/Reserve";
+import PlaceName from "./Components/PlaceName";
+import DateSelector from "./Components/DateSelector";
+import Footer2 from "./Components/Footer2";
 function App() {
   return (
     <div>
+      <PlaceName />
+      <AboutPlace />
       <DateSelector />
-      <SearchBox />
-      <Reserve />
+      <Footer2 />
     </div>
   );
 }
