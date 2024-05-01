@@ -12,8 +12,9 @@ function App() {
   return (
     <>
       {/* <Searchbox /> */}
-      <Reserve />
+      {/* <Reserve /> */}
       {/* <SearchBox /> */}
+      <Navbar />
     </>
   );
 }
