@@ -87,14 +87,11 @@ export default function AboutPlace() {
         </Grid>
 
         <Grid item xs={5}>
-          {/* <Reserve /> */}
-          Reserve
+          <Reserve price={placeData.price}/>
         </Grid>
 
         {/* <Grid item xs={12}>  */}
-        <Grid
-          item
-          xs={6}
+        <Grid item xs={6}
           sx={{
             borderTop: "solid 1px rgba(0, 0, 0, 0.1)",
             borderbottom: "solid 1px rgba(0, 0, 0, 0.1)",

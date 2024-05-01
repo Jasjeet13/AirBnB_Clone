@@ -1,11 +1,10 @@
 .reserve-box {
-  width: 330px;
-  height: 350px;
-  margin-top: 10px;
+  width: 340px;
+  height: 320px;
   border-radius: 10px;
-  padding-left: 30px;
-  border: 1px solid rgb(225, 225, 225); /* Black outline */
-  box-shadow: 0px 0px 10px rgba(180, 178, 178, 0.5); /* Shadow */
+  border: 1px solid rgb(225, 225, 225); 
+  box-shadow: 0px 0px 10px rgba(180, 178, 178, 0.5);
+  padding: 30px;
 }
 .subline {
   color: rgba(129, 128, 128, 0.943);

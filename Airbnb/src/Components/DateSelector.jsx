@@ -38,7 +38,7 @@ const DateSelector = () => {
         </div>
       </div>
 
-      <div className="vertical-line"></div>
+      {/* <div className="vertical-line"></div> */}
 
       <div className="checkincheckout">
         <div className="label">
