@@ -131,8 +131,8 @@ export default function AboutPlace() {
           </Grid>
         </Grid>
 
-        <h2>Select check-in date</h2>
-        <p>Add your travel dates for exact pricing</p>
+        
+
       </Grid>
     </Grid>
   );

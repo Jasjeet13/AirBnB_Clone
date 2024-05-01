@@ -76,19 +76,34 @@ export default function Section2({host}) {
               </p>
             </div>
           </li>
+
           <li>
+            <div className="svg-box">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-p-circle"
+              className="bi bi-p-circle"
               viewBox="0 0 16 16"
             >
               <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.5 4.002h2.962C10.045 4.002 11 5.104 11 6.586c0 1.494-.967 2.578-2.55 2.578H6.784V12H5.5zm2.77 4.072c.893 0 1.419-.545 1.419-1.488s-.526-1.482-1.42-1.482H6.778v2.97z" />
             </svg>
+
+            </div>
+
+            <div>
+              <b>Park for free</b>
+              <br />
+              <p>
+
+              This is one of the few places in the area with free parking.
+              </p>
+            </div>
           </li>
+
           <li>
+            <div className="svg-box">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -99,6 +114,7 @@ export default function Section2({host}) {
             >
               <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
             </svg>
+<<<<<<< HEAD
           </li>
         </ul>
       </div>
@@ -127,6 +143,20 @@ export default function Section2({host}) {
             <b>Free cancellation 10 days prior</b>
             <br />
             Get a full refund if you change your mind.
+=======
+
+            </div>
+
+            <div>
+              <b>Free cancellation 10 days prior</b>
+              <br />
+              <p>
+
+              Get a full refund if you change your mind.
+
+              </p>
+            </div>
+>>>>>>> 9eec4ad5d17c1ba5565837faf6eac48683d599c7
           </li>
         </ul>
       </div>
