@@ -23,13 +23,12 @@
   color: white;
   cursor: pointer;
   background-color: rgb(252, 43, 78);
-  padding-left: 115px;
-  padding-right: 115px;
-  padding-top: 10px;
   border: none;
   border-radius: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
+  height: 45px;
+  width: 280px;
+  margin-bottom: 15px;
 }
 .subline2 {
   color: rgba(62, 62, 62, 0.943);

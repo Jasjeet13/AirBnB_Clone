@@ -8,7 +8,7 @@ import Surfing from './Components/Surfing'
 import Castles from './Components/Castles'
 import Categories from './Components/Categories'
 import ImageLayout from './Components/ImageLayout'
-import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import ShowMore from './Components/ShowMore'
 import ShowMore2 from './Components/ShowMore2'
 import AboutPlace from './Components/AboutPlace'
@@ -18,13 +18,6 @@ import SearchBox from './Components/SearchBox'
 import { Container, Grid } from '@mui/material'
 
 function App() {
-  const [showCategories, setShowCategories] = useState(true); 
-
-  const handleCategoryClick = () => {
-    setShowCategories(false); 
-    console.log(showCategories);
-  };
-
   return (
     <Router>
       <div>
@@ -37,10 +30,12 @@ function App() {
             <SearchBox />
           </Grid>
 
+          
+          <Grid item xs={12} sx={{marginBottom:'1%',borderTop:'solid 1px rgba(0, 0, 0, 0.1)'}}>
+            <Categories />
+          </Grid>
+
         </Grid>
-
-        {showCategories && <Categories />}
-
       </div>
       <Routes>
         <Route path='/' element={<Surfing />}/>
@@ -50,16 +45,10 @@ function App() {
         <Route path='/AmazingViews' element={<Amazing_Views />}/>
         <Route path='/Treehouses' element={<Treehouses />}/>
         <Route path='/Beaches' element={<Beach />}/>
-        <Route path='/:category/:placeId' element={<AboutPlace onClick={handleCategoryClick} />} />
+        <Route path='/:category/:placeId' element={<AboutPlace/>} />
       </Routes>
     </Router>
 
-    <>
-      {/* <Searchbox /> */}
-      {/* <Reserve /> */}
-      {/* <SearchBox /> */}
-      <Navbar />
-    </>
   );
 }
 

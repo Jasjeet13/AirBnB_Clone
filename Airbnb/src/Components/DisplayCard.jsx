@@ -60,10 +60,10 @@ function DisplayCard({ data, category }) {
                 ))}
               </Slider>
 
-              <Link to={{ pathname: `/${category}/${item.id}`}} >
+              <Link to={{ pathname: `/${category}/${item.id}`}} style={{textDecoration:'none',cursor:'pointer'}} >
 
 
-                <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "700", margin: "10px" }}>
+                <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "700", margin: "10px" , color:'black'}}>
                   {item.name} <br />
                 </Typography>
                 <Typography variant="h4" style={{ fontSize: "14px", margin: "10px", color: "#9fa1a1" }}>

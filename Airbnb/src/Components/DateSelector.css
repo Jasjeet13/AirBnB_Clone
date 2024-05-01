@@ -30,8 +30,7 @@
 
 .vertical-line {
   position: absolute;
-  top: 6px;
-  bottom: 6px;
-  width: 1.5px; /* Width of the lines */
-  background-color: lightgrey; /* Color of the lines */
+
+  width: 1.5px; 
+  background-color: lightgrey; 
 }

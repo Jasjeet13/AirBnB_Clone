@@ -27,6 +27,7 @@ const DateSelector = () => {
             <p style={{fontWeight:'700'}}>Check-in</p>
             </label>
         </div>
+      
         <div className="checkinout">
           <input
             type="date"
@@ -38,7 +39,7 @@ const DateSelector = () => {
         </div>
       </div>
 
-      {/* <div className="vertical-line"></div> */}
+      <div style={{borderLeft:'solid 2.5px lightgrey'}}></div>
 
       <div className="checkincheckout">
         <div className="label">
