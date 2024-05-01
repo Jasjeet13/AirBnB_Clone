@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import DisplayCard from './Components/DisplayCard'
 import Beach from './Components/Beach'
 import Treehouses from './Components/Treehouses'
@@ -7,7 +8,7 @@ import Surfing from './Components/Surfing'
 import Castles from './Components/Castles'
 import Categories from './Components/Categories'
 import ImageLayout from './Components/ImageLayout'
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes, useLocation } from 'react-router-dom';
 import ShowMore from './Components/ShowMore'
 import ShowMore2 from './Components/ShowMore2'
 import AboutPlace from './Components/AboutPlace'
@@ -16,9 +17,14 @@ import Navbar from './Components/Navbar'
 import SearchBox from './Components/SearchBox'
 import { Container, Grid } from '@mui/material'
 
-
-
 function App() {
+  const [showCategories, setShowCategories] = useState(true); 
+
+  const handleCategoryClick = () => {
+    setShowCategories(false); 
+    console.log(showCategories);
+  };
+
   return (
     <Router>
       <div>
@@ -32,9 +38,11 @@ function App() {
           </Grid>
 
         </Grid>
+
+        {showCategories && <Categories />}
+
       </div>
       <Routes>
-        <Route path='/' element={<Categories />}/>
         <Route path='/' element={<Surfing />}/>
         <Route path='/Surfing' element={<Surfing />}/>
         <Route path='/Surfing' element={<Surfing />}/>
@@ -42,7 +50,7 @@ function App() {
         <Route path='/AmazingViews' element={<Amazing_Views />}/>
         <Route path='/Treehouses' element={<Treehouses />}/>
         <Route path='/Beaches' element={<Beach />}/>
-        <Route path='/:category/:placeId' element={<AboutPlace/>} />
+        <Route path='/:category/:placeId' element={<AboutPlace onClick={handleCategoryClick} />} />
       </Routes>
     </Router>
 

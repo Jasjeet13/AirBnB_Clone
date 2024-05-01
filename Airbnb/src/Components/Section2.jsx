@@ -2,7 +2,7 @@ import "./Section2.css";
 import { Grid } from "@mui/material";
 export default function Section2({host}) {
   return (
-    <Grid container xs={6} className="lists">
+    <Grid container className="lists">
       <div className="list1">
         <ul>
           <li>
@@ -29,6 +29,7 @@ export default function Section2({host}) {
               </p>
             </div>
           </li>
+
           <li>
             <div className="svg-box">
               <svg
@@ -53,6 +54,7 @@ export default function Section2({host}) {
               </p>
             </div>
           </li>
+
           <li>
             <div className="svg-box">
               <svg
@@ -109,57 +111,25 @@ export default function Section2({host}) {
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-x-circle-fill"
+              className="bi bi-x-circle-fill"
               viewBox="0 0 16 16"
             >
               <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
             </svg>
-<<<<<<< HEAD
-          </li>
-        </ul>
-      </div>
-      <div className="list2">
-        <ul>
-          <li>
-            <b>Self check-in</b>
-            <br></br>You can check in with the building staff.
-          </li>
-          <li>
-            <b>Mikhaela Angela is a Superhost</b>
-            <br></br>
-            Superhosts are experienced, highly rated Hosts.
-          </li>
-          <li>
-            <b>Great Location</b>
-            <br />
-            90% of recent guests gave the location a 5-star rating.
-          </li>
-          <li>
-            <b>Park for free</b>
-            <br />
-            This is one of the few places in the area with free parking.
-          </li>
-          <li>
-            <b>Free cancellation 10 days prior</b>
-            <br />
-            Get a full refund if you change your mind.
-=======
-
             </div>
 
-            <div>
+              <div>
               <b>Free cancellation 10 days prior</b>
               <br />
-              <p>
+              <p>Get a full refund if you change your mind.</p>
+              </div>
 
-              Get a full refund if you change your mind.
-
-              </p>
-            </div>
->>>>>>> 9eec4ad5d17c1ba5565837faf6eac48683d599c7
           </li>
+
         </ul>
       </div>
+
+      
     </Grid>
 
   );
