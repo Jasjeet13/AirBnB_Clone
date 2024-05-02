@@ -1,65 +1,62 @@
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box;
-  }
-  .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-left: 64px;
-      padding-right: 64px;
-      text-decoration: none;
-      height: 60px;
-    }
-    
-    .navbar-logo {
-      height: 27px;
-      padding-top:1px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 64px;
+  padding-right: 64px;
+  text-decoration: none;
+  height: 60px;
+}
 
-    }
-    
-    .navbar-links {
-      text-align: center;
-    }   
-    
-    .navbar-account {
-      border-radius: 50px;
-      border: 2px solid rgb(208, 207, 207); 
-      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-      align-items: center; 
-      padding: 7px 2px 7px 2px; 
-    }
-    
-    
-    .navbar-account a {
-      margin: 0 10px 0 10px;
-      color: grey;
-    }
-    .dropdown-menu {
-      position: absolute;
-      right: 4.5%;  
-      width: 200px;  
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
-      border: solid 1px rgba(0, 0, 0, 0.1);
-      top:52px;
-      height:74px;
-  }
-  
-  .dropdown-menu p {
-      padding: 10px 20px;
-      text-align: left;
-      border-bottom: 1px solid #f1f1f1;
-      margin: 0;
-      font-size: 12px;
-      font-weight:700px;
-  }
-  .dropdown-menu p:hover{
-    background-color: #ddd; 
-  }
-  .signup p{
-    border-bottom: none;
-  }
-  
+.navbar-logo {
+  height: 27px;
+  padding-top: 1px;
+}
+
+.navbar-links {
+  text-align: center;
+}
+
+.navbar-account {
+  border-radius: 50px;
+  border: 2px solid rgb(208, 207, 207);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  padding: 7px 2px 7px 2px;
+}
+
+.navbar-account a {
+  margin: 0 10px 0 10px;
+  color: grey;
+}
+.dropdown-menu {
+  position: absolute;
+  right: 4.5%;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  top: 52px;
+  height: 74px;
+}
+
+.dropdown-menu p {
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700px;
+}
+.dropdown-menu p:hover {
+  background-color: #ddd;
+}
+.signup p {
+  border-bottom: none;
+}

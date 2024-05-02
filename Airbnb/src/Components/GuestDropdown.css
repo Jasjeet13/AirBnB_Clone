@@ -14,9 +14,9 @@
   width: 300px;
   border-radius: 20px;
   border: solid 1px rgba(0, 0, 0, 0.1);
-  position: absolute; 
-  top: calc(90% + 10px); 
-  background-color: #fff; 
+  position: absolute;
+  top: calc(100% + 10px);
+  background-color: #fff;
   align-items: center;
   justify-content: center;
   height: 280px;
@@ -26,7 +26,7 @@ ul {
   list-style: none;
 }
 
-.type{
+.type {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,7 +35,7 @@ ul {
   height: 100%;
 }
 
-.type ul{
+.type ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@ ul {
   height: 100%;
 }
 
-.type ul li{
+.type ul li {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -56,13 +56,13 @@ ul {
   border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 }
 
-.buttons{
+.buttons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.button-plus-minus{
+.button-plus-minus {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -75,20 +75,19 @@ ul {
   font-size: 18px;
   /* opacity: 0.7; */
   border: solid 1px rgba(0, 0, 0, 0.6);
-
 }
 
-.type-heading{
+.type-heading {
   font-size: 14px;
   font-weight: 600;
-  margin: 10px 20px 10px 0px
+  margin: 10px 20px 10px 0px;
 }
-.type-text{
+.type-text {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 
-.type ul li:hover{
+.type ul li:hover {
   text-decoration: none;
 }
