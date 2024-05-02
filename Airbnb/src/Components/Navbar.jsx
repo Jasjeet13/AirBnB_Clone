@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "./assets/logo.jpg";
+import logo from "./assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faUser } from "@fortawesome/free-solid-svg-icons";
-// import SearchBox from "./SearchBox";
+import SearchBox from "./SearchBox";
 
 function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -18,8 +18,8 @@ function Navbar() {
         <img src={logo} alt="Logo" style={{ height: "100%" }} />
       </div>
       <div className="navbar-links">
-        <p style={{fontSize:'15px',fontWeight:'600'}}>Stays</p>
-        {/* <SearchBox /> */}
+        {/* <p style={{fontSize:'15px',fontWeight:'600'}}>Stays</p> */}
+        <SearchBox />
       </div>
       <div className="navbar-account">
         <a href="#menu" onClick={toggleDropdown}>

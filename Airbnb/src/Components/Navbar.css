@@ -1,9 +1,11 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
   box-sizing: border-box;
 }
 .navbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +16,8 @@
 }
 
 .navbar-logo {
-  height: 27px;
+  cursor: pointer;
+  height: 80px;
   padding-top: 1px;
 }
 
