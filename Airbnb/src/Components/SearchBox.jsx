@@ -4,6 +4,7 @@ import DateSelector from "./DateSelector";
 import GuestDropdown from "./GuestDropdown";
 const SearchBox = () => {
   const [isCursorInBox, setIsCursorInBox] = useState(false);
+  
 
   const handleMouseEnterBox = () => {
     setIsCursorInBox(true);
@@ -38,6 +39,7 @@ const SearchBox = () => {
         </div>
       </div>
     </div>
+    
     </div>
   );
 };

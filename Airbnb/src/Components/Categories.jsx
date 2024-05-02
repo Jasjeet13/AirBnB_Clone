@@ -34,18 +34,6 @@ function Categories() {
                 </Button>
             </Grid>
 
-            <Grid item>
-                <Button className='button'>
-                    <Link to="/AmazingViews" className='link'>
-                    <div>
-                        <img src='https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg' style={{ marginRight: '8px',height: '24px', opacity:'0.7' }}/>
-                    </div>
-                    <Typography className='typo' variant="body1" sx={{fontSize:'12px',fontWeight:'600'}}>
-                        Amazing Views
-                    </Typography>
-                    </Link>
-                </Button>
-            </Grid>
 
             <Grid item>
                 <Button className='button'>
@@ -72,6 +60,20 @@ function Categories() {
                     </Link>
                 </Button>
             </Grid>
+
+            <Grid item>
+                <Button className='button'>
+                    <Link to="/AmazingViews" className='link'>
+                    <div>
+                        <img src='https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg' style={{ marginRight: '8px',height: '24px', opacity:'0.7' }}/>
+                    </div>
+                    <Typography className='typo' variant="body1" sx={{fontSize:'12px',fontWeight:'600'}}>
+                        Amazing Views
+                    </Typography>
+                    </Link>
+                </Button>
+            </Grid>
+            
 
         </Grid>
     </Container>

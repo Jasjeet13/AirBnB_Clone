@@ -12,10 +12,21 @@ import { Link } from "react-router-dom";
 import GuestDropdown from "./GuestDropdown";
 import Footer2 from "./Footer2";
 import Footer from "./Footer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 export default function AboutPlace() {
   const { placeId, category } = useParams();
   const [placeData, setPlaceData] = useState({});
+  const [showMore, setShowMore] = useState(false);
+
+  const handleShowMoreClick = () => {
+    setShowMore(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowMore(false);
+  };
 
   useEffect(() => {
     console.log("placeId:", placeId);
@@ -59,7 +70,7 @@ export default function AboutPlace() {
 
   return (
     <Grid container sx={placeStyle.gc}>
-      <Grid container sx={{ width: "75%" }}>
+      <Grid container sx={{ width: "80%" }}>
         <Typography variant="h3" sx={placeStyle.h}>
           {placeData.heading}
         </Typography>
@@ -118,7 +129,7 @@ export default function AboutPlace() {
           </Typography>
 
           <Grid item xs={12}>
-            <Link to="/" style={{ color: "black", fontSize: "15px" }}>
+            <Link to="#" style={{ color: "black", fontSize: "15px" }} onClick={handleShowMoreClick}>
               Show More ....
             </Link>
           </Grid>
@@ -139,7 +150,44 @@ export default function AboutPlace() {
 
       <Grid item xs={12}>
           <Footer />
-        </Grid>
+      </Grid>
+
+      {showMore && (
+        <div className="modal-container">
+          <div className="modal">
+            <FontAwesomeIcon icon={faTimes} onClick={handleCloseModal} />
+
+            <Typography variant="h6" sx={{ fontWeight: "600", margin: "4% 0 2% 0" }}>
+              About this place
+            </Typography>
+
+            <Typography variant="body1" paragraph
+            sx={{
+              fontSize: "15px",
+              color: "rgb(57, 57, 57)",
+              letterSpacing: "1.5",
+              marginBottom: "2%",
+            }}>
+              {placeData.aboutPlace}
+            </Typography>
+
+            <Typography variant="body1" paragraph
+            sx={{
+              fontSize: "15px",
+              color: "rgb(57, 57, 57)",
+              letterSpacing: "1.5",
+              marginBottom: "2%",
+            }}>
+              {placeData.showMore}
+            </Typography>
+
+          </div>
+        </div>
+      )}
+
+      
+      {showMore && <div className="blur-background"></div>}
+
     </Grid>
   );
 }
