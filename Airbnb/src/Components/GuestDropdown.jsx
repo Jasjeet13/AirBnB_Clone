@@ -48,8 +48,8 @@ const GuestDropdown = () => {
   return (
     <div className="guest-dropdown">
       <button className="toggle-button" onClick={toggleDropdown}>
-        <p style={{fontSize:'12px',fontWeight:'700'}}>Who</p>
-        <p>{totalGuests} guests</p>
+        <p style={{fontSize:'12px',fontWeight:'700',color:'black'}}>Who</p>
+        <p style={{color:'black'}}>{totalGuests} guests</p>
       </button>
       {isOpen && (
         <div className="dropdown-content">

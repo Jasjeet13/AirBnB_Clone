@@ -44,6 +44,7 @@ function DisplayCard({ data, category }) {
     <Grid container spacing={3} style={{ padding: "10px" }}>
       {data && data.map((item, index) => (
         <Grid item xs={6} sm={3} key={index}>
+      <Link to={{ pathname: `/${category}/${item.id}`}} style={{textDecoration:'none',cursor:'pointer'}} >
           <Card elevation={0} style={{ height: "100%" }}>
             <CardContent>
               <Slider {...settings}>
@@ -60,7 +61,6 @@ function DisplayCard({ data, category }) {
                 ))}
               </Slider>
 
-              <Link to={{ pathname: `/${category}/${item.id}`}} style={{textDecoration:'none',cursor:'pointer'}} >
 
 
                 <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "700", margin: "10px" , color:'black'}}>
@@ -72,11 +72,11 @@ function DisplayCard({ data, category }) {
                 <Typography variant="h4" style={{ fontSize: "14px", margin: "10px", color: "#9fa1a1" }}>
                   <span style={{ fontWeight: "700", color: "black" }}>{item.price}</span> <br />
                 </Typography>
-              </Link>
 
 
             </CardContent>
           </Card>
+              </Link>
         </Grid>
       ))}
     </Grid>

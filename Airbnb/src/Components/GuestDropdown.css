@@ -1,7 +1,7 @@
 .toggle-button {
   background-color: white;
-  width: 280px;
-  height: 40px;
+  width: 260px;
+  height: px;
   font-size: 17px;
   border: none;
   margin-top: 5px;
@@ -15,12 +15,13 @@
   border-radius: 20px;
   border: solid 1px rgba(0, 0, 0, 0.1);
   position: absolute; 
-  top: calc(90% + 10px); 
+  top: calc(100% + 10px); 
   background-color: #fff; 
   align-items: center;
   justify-content: center;
   height: 280px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 900;
 }
 ul {
   list-style: none;
@@ -75,6 +76,7 @@ ul {
   font-size: 18px;
   /* opacity: 0.7; */
   border: solid 1px rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 
 }
 
