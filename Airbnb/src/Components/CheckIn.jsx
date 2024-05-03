@@ -12,12 +12,11 @@ const CheckIn = () => {
   };
 
   const handleDateChange = (date) => {
-    // Only update the selected date if it's not before today
     if (date >= new Date()) {
       setSelectedDate(date);
-      setInputValue(formatDate(date)); // Format the date and set it as input value
+      setInputValue(formatDate(date)); 
     }
-    setIsOpen(false); // Close the dropdown after selecting a date
+    setIsOpen(false);
   };
 
   const formatDate = (date) => {
@@ -35,14 +34,14 @@ const CheckIn = () => {
         id="checkin-input"
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
-        min={formatDate(new Date())} // Set minimum date as today
+        min={formatDate(new Date())} 
       />
       {isOpen && (
         <div className="calendar-container">
           <Calendar
             onChange={handleDateChange}
             value={selectedDate}
-            minDate={new Date()} // Set minimum selectable date as today
+            minDate={new Date()} 
           />
         </div>
       )}

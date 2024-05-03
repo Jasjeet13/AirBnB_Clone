@@ -1,8 +1,8 @@
 .DateCheck {
-  width: 300px; /* You can adjust width and height as needed */
+  width: 300px; 
   height: 450px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow properties */
-  padding: 5px; /* Add padding to make space for subcomponents */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 5px; 
   border-radius: 10px;
 }
 .box-heading {

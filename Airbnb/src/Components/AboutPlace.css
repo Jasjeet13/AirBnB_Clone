@@ -8,6 +8,9 @@
   margin-left: 3%;
   margin-bottom: 1%;
 }
+.placename {
+  display: flex;
+}
 .facilities:hover {
   background-color: rgb(232, 235, 235);
 }
@@ -44,3 +47,36 @@
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 9998;
 }
+
+/* .share {
+  border-radius: 10px;
+  padding: 8px;
+}
+.save {
+  border-radius: 10px;
+  padding: 8px;
+}
+.share:hover {
+  cursor: pointer;
+  background-color: rgb(243, 242, 242);
+}
+.share svg {
+  margin-right: 5px;
+}
+.save svg {
+  margin-right: 5px;
+}
+.save:hover {
+  cursor: pointer;
+  background-color: rgb(243, 242, 242);
+}
+.buttons button {
+  border: none;
+  background-color: white;
+  margin-left: 210px;
+  font-size: 15px;
+}
+.buttons a {
+  color: black;
+  font-weight: 600;
+} */

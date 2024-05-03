@@ -6,9 +6,7 @@ const DateCheck = ({ children }) => {
   const [dates, setDates] = useState([]);
   console.log(dates);
 
-  // Function to disable previous dates
   const disabledDate = (current) => {
-    // Disable dates before today
     return current && current < moment().startOf("day");
   };
 
@@ -25,7 +23,7 @@ const DateCheck = ({ children }) => {
               })
             );
           }}
-          disabledDate={disabledDate} // Apply disabledDate function
+          disabledDate={disabledDate}
         />
         <GuestDropdown />
         <div className="reserve-div">
