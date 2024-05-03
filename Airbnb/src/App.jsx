@@ -53,6 +53,9 @@ function App() {
         <Route path="/Beaches" element={<Beach />} />
         <Route path="/:category/:placeId" element={<AboutPlace />} />
       </Routes>
+      <div>
+        <Footer />
+      </div>
     </Router>
   );
 }
