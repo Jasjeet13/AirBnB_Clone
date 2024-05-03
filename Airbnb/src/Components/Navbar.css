@@ -25,6 +25,11 @@
   text-align: center;
 }
 
+@media screen and (max-width: 950px) {
+  .navbar-links {
+    display: none;
+  }
+}
 .navbar-account {
   border-radius: 50px;
   border: 2px solid rgb(208, 207, 207);
