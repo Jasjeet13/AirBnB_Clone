@@ -9,6 +9,7 @@
     "@material-ui/core": "^4.12.4",
     "@mui/material": "^5.15.15",
     "antd": "^5.16.5",
+    "axios": "^1.7.1",
     "bootstrap-icons": "^1.11.3",
     "moment": "^2.30.1",
     "react-calendar": "^4.8.0",

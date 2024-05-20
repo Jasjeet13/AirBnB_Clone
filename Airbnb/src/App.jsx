@@ -17,6 +17,8 @@ import Navbar from "./Components/Navbar";
 import SearchBox from "./Components/SearchBox";
 import { Container, Grid } from "@mui/material";
 import Footer from "./Components/Footer";
+import Signup from "./Components/Signup";
+import Login from "./Components/Login";
 
 function App() {
   return (
@@ -53,9 +55,6 @@ function App() {
         <Route path="/Beaches" element={<Beach />} />
         <Route path="/:category/:placeId" element={<AboutPlace />} />
       </Routes>
-      <div>
-        <Footer />
-      </div>
     </Router>
   );
 }
