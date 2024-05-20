@@ -18,6 +18,8 @@ import SearchBox from "./Components/SearchBox";
 import { Container, Grid } from "@mui/material";
 import Footer from "./Components/Footer";
 import Payment from "./Components/Payment";
+import Signup from "./Components/Signup";
+import Login from "./Components/Login";
 
 function App() {
   return (

@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "4f34",
+      "username": "ydvkanchan",
+      "name": "Kanchan Yadav",
+      "password": "12345"
+    },
+    {
+      "id": "fdfc",
+      "username": "kamaliii",
+      "name": "Kamaljeet Kaur",
+      "password": "asdfghjk"
+    },
+    {
+      "id": "8ca5",
+      "username": "jasjeet1",
+      "name": "Jasjeet Kaur",
+      "password": "123456789"
+    },
+    {
+      "id": "a136",
+      "username": "annu",
+      "name": "anushka yadav",
+      "password": "asdfg"
+    },
+    {
+      "id": "c8b2",
+      "username": "annu",
+      "name": "anushka yadav",
+      "password": "asdfg"
+    },
+    {
+      "id": "8a87",
+      "username": "kancjan",
+      "name": "fghj",
+      "password": "1111"
+    }
+  ],
+  "loginUser": [
+    {
+      "id": "f306",
+      "checkInDate": "2024-05-21",
+      "checkOutDate": "2024-05-31"
+    },
+    {
+      "id": "34f0",
+      "totalGuests": 4
+    },
+    {
+      "id": "1849",
+      "username": "hellooo",
+      "password": "ooooo"
+    }
+  ]
+}

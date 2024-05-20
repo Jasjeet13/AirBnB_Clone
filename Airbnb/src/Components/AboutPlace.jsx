@@ -196,9 +196,9 @@ export default function AboutPlace() {
         </Grid>
       </Grid>
 
-      <Grid item xs={12}>
+      {/* <Grid item xs={12}>
         <Footer />
-      </Grid>
+      </Grid> */}
 
       {showMore && (
         <div className="modal-container">
