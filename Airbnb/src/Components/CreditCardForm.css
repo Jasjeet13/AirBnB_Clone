@@ -1,0 +1,48 @@
+.credit-card-form {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+ .formdiv {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .credit-card-form label {
+    display: block;
+    margin-bottom: 5px;
+
+  }
+  
+  .credit-card-form input {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .credit-card-form span {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  .credit-card-form button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: rgb(252, 43, 78);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .credit-card-form button:hover {
+    background-color: rgba(252, 43, 78,0.7);
+  }
+  
+  .App-header {
+    text-align: center;
+    padding: 20px;
+  }
+  

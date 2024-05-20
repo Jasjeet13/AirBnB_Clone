@@ -8,21 +8,14 @@ import Signup from "./Signup";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Reserve = ({ price }) => {
-  const [showLogin, setShowLogin] = useState(true);
-
-  const handleShowLogin = () => {
-    setShowLogin(false);
-  };
-
-  const handleCloseLogin = () => {
-    setShowLogin(true);
-  };
+  
 
   return (
     <div >
-      {showLogin ? (
+
         <div className="reserve-box">
           <div className="price">
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -34,16 +27,12 @@ const Reserve = ({ price }) => {
             <hr />
             <GuestDropdown />
           </div>
-          <button className="reserve" onClick={handleShowLogin}>Reserve</button>
+          <Link to="/payment" >
+            <button className="reserve" >Reserve</button>
+          </Link>
           <p className="subline2">You won't be charged yet</p>
         </div>
-      ) : (
-        <div className="login-box">
-          <FontAwesomeIcon icon={faTimes} onClick={handleCloseLogin} />
-          <Signup />
-
-        </div>
-      )}
+      
     </div>
   );
 };

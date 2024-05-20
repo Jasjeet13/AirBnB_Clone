@@ -4,6 +4,7 @@ import logo from "./assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faUser } from "@fortawesome/free-solid-svg-icons";
 import SearchBox from "./SearchBox";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -15,7 +16,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
+        <Link to="/">
         <img src={logo} alt="Logo" style={{ height: "100%" }} />
+        </Link>
       </div>
       <div className="navbar-links">
         {/* <p style={{fontSize:'15px',fontWeight:'600'}}>Stays</p> */}

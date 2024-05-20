@@ -17,9 +17,11 @@ import Navbar from "./Components/Navbar";
 import SearchBox from "./Components/SearchBox";
 import { Container, Grid } from "@mui/material";
 import Footer from "./Components/Footer";
+import Payment from "./Components/Payment";
 
 function App() {
   return (
+    
     <Router>
       <div>
         <Grid container sx={{ borderBottom: "solid 1px rgba(0, 0, 0, 0.1)" }}>
@@ -27,9 +29,7 @@ function App() {
             <Navbar />
           </Grid>
 
-          {/* <Grid item xs={12} sx={{marginBottom:'1%'}}>
-            <SearchBox />
-          </Grid> */}
+         
 
           <Grid
             item
@@ -51,9 +51,18 @@ function App() {
         <Route path="/AmazingViews" element={<Amazing_Views />} />
         <Route path="/Treehouses" element={<Treehouses />} />
         <Route path="/Beaches" element={<Beach />} />
+        <Route path="/payment" element={<Payment />} />
         <Route path="/:category/:placeId" element={<AboutPlace />} />
       </Routes>
+
+    <div>
+      <Footer />
+    </div>
+    
     </Router>
+    
+
+  
   );
 }
 
