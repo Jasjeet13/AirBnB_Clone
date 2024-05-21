@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import axios from "axios";
 import "./GuestDropdown.css";
 
@@ -28,9 +28,35 @@ const GuestDropdown = () => {
 
   const totalGuests = guests.adults + guests.children + guests.infants;
 
+  const [lastUserName, setLastUserName] = useState('');
+  
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          // Fetch the current_user JSON file
+          const response = await fetch('http://localhost:3001/current_user');
+          if (!response.ok) {
+            throw new Error('Failed to fetch data');
+          }
+          const data = await response.json();
+  
+          // Get the last user's name from the fetched data
+          const lastUser = data[data.length - 1];
+          const userName = lastUser ? lastUser.username : '';
+          setLastUserName(userName);
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        }
+      };
+  
+      fetchData();
+    }, []);
+  
+
   const saveGuestsToServer = async () => {
     try {
-      const response = await axios.post("http://localhost:3001/loginUser", {
+      const response = await axios.post("http://localhost:3001/reserve", {
+        username : lastUserName,
         totalGuests: totalGuests,
       });
       console.log("Total guests saved successfully", response.data);

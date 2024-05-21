@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Form.css";
+import { Grid } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Signup() {
   const [formData, setFormData] = useState({
@@ -38,6 +40,7 @@ function Signup() {
   };
 
   return (
+    <Grid container sm={12} sx={{display:'flex',justifyContent:'center',alignItems:'center', margin:'30px 0 30px 0'}}>
     <div className="sign-up-box">
       <h1>Welcome to Airbnb</h1>
       <form onSubmit={handleSubmit}>
@@ -73,9 +76,12 @@ function Signup() {
           onChange={handleChange}
           required
         />
-        <button type="submit">Sign Up</button>
+        <Link to="/login" style={{textDecoration:'none'}}>
+          <button type="submit">Sign Up</button>
+        </Link>
       </form>
     </div>
+    </Grid>
   );
 }
 

@@ -42,27 +42,38 @@
   margin: 0 10px 0 10px;
   color: grey;
 }
+
+.login , .signup {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
 .dropdown-menu {
   position: absolute;
   right: 4.5%;
-  width: 200px;
+  width: 250px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
   border: solid 1px rgba(0, 0, 0, 0.1);
-  top: 52px;
-  height: 74px;
+  top: 70px;
+  height: 105px;
 }
 
 .dropdown-menu p {
   padding: 10px 20px;
   text-align: left;
-  border-bottom: 1px solid #f1f1f1;
-  margin: 0;
+  /* border-bottom: 1px solid #f1f1f1; */
+  margin: 0px;
   font-size: 12px;
   font-weight: 700px;
 }
-.dropdown-menu p:hover {
+
+.login:hover , .signup:hover {
   background-color: #ddd;
 }
 .signup p {

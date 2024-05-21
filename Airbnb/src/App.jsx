@@ -53,7 +53,9 @@ function App() {
         <Route path="/AmazingViews" element={<Amazing_Views />} />
         <Route path="/Treehouses" element={<Treehouses />} />
         <Route path="/Beaches" element={<Beach />} />
-        <Route path="/payment" element={<Payment />} />
+        <Route path="/payment/:price" element={<Payment />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/:category/:placeId" element={<AboutPlace />} />
       </Routes>
 

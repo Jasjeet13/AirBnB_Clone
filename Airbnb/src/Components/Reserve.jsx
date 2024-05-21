@@ -11,7 +11,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Reserve = ({ price }) => {
-  
+
+    console.log("price in reverse",price);
+    
 
   return (
     <div >
@@ -35,7 +37,8 @@ const Reserve = ({ price }) => {
             <hr />
             <GuestDropdown />
           </div>
-          <Link to="/payment" >
+
+          <Link to={{ pathname: `/payment/${price}`}} >
             <button className="reserve" >Reserve</button>
           </Link>
           <p className="subline2">You won't be charged yet</p>
