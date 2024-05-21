@@ -46,4 +46,3 @@ const Reserve = ({ price }) => {
 };
 
 export default Reserve;
-k

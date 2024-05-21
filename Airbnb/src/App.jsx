@@ -20,18 +20,16 @@ import Footer from "./Components/Footer";
 import Payment from "./Components/Payment";
 import Signup from "./Components/Signup";
 import Login from "./Components/Login";
+import GuestDropdown from "./Components/GuestDropdown";
 
 function App() {
   return (
-    
     <Router>
       <div>
         <Grid container sx={{ borderBottom: "solid 1px rgba(0, 0, 0, 0.1)" }}>
           <Grid item xs={12}>
             <Navbar />
           </Grid>
-
-         
 
           <Grid
             item
@@ -60,11 +58,9 @@ function App() {
     <div>
       <Footer />
     </div>
-    
-    </Router>
-    
 
-  
+    </Router>
+
   );
 }
 
