@@ -5,18 +5,111 @@
       "username": "janvi",
       "name": "janvi sethi",
       "password": "12345"
+    },
+    {
+      "id": "fdfc",
+      "username": "kamaliii",
+      "name": "Kamaljeet Kaur",
+      "password": "asdfghjk"
+    },
+    {
+      "id": "8ca5",
+      "username": "jasjeet1",
+      "name": "Jasjeet Kaur",
+      "password": "123456789"
+    },
+    {
+      "id": "a136",
+      "username": "annu",
+      "name": "anushka yadav",
+      "password": "asdfg"
+    },
+    {
+      "id": "c8b2",
+      "username": "annu",
+      "name": "anushka yadav",
+      "password": "asdfg"
+    },
+    {
+      "id": "8a87",
+      "username": "kancjan",
+      "name": "fghj",
+      "password": "1111"
+    },
+    {
+      "id": "2a18",
+      "username": "jasjeet13.saini@gmail.com",
+      "name": "Jasjeet",
+      "password": "1234"
     }
   ],
-  "loginUser": [
+  "current_user": [
     {
-      "id": "bf1b",
-      "username": "asdfgh",
+      "id": "cd29",
+      "username": "jasjeet",
       "password": "1234567"
     },
     {
-      "id": "638d",
+      "id": "2dcb",
+      "username": "Kamal",
+      "password": "124577"
+    }
+  ],
+  "reserve": [
+    {
+      "id": "7eb7",
       "checkInDate": "2024-05-22",
-      "checkOutDate": "2024-05-25"
+      "checkOutDate": "2024-05-26",
+      "username": "jasjeet"
+    },
+    {
+      "id": "35db",
+      "username": "jasjeet",
+      "totalGuests": 2
+    },
+    {
+      "id": "2b69",
+      "checkInDate": "2024-05-22",
+      "checkOutDate": "2024-05-26",
+      "username": "Kamal"
+    },
+    {
+      "id": "b271",
+      "username": "Kamal",
+      "totalGuests": 2
+    },
+    {
+      "id": "f8e3",
+      "checkInDate": "2024-05-22",
+      "checkOutDate": "2024-05-26",
+      "username": "Kamal"
+    },
+    {
+      "id": "f790",
+      "username": "Kamal",
+      "totalGuests": 2
+    },
+    {
+      "id": "9f17",
+      "checkInDate": "2024-05-22",
+      "checkOutDate": "2024-05-26",
+      "username": "Kamal"
+    },
+    {
+      "id": "ce98",
+      "username": "Kamal",
+      "totalGuests": 2
+    },
+    {
+      "id": "7873",
+      "checkInDate": "2024-05-22",
+      "checkOutDate": "2024-05-26",
+      "username": "Kamal"
+    },
+    {
+      "id": "3974",
+      "username": "Kamal",
+      "totalGuests": 2
     }
   ]
 }

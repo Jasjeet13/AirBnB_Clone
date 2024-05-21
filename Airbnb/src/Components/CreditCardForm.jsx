@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import "./CreditCardForm.css";
+import { Link } from 'react-router-dom';
 
-const CreditCardForm = () => {
+const CreditCardForm = ({numberOfDays,pricePerDay}) => {
     const [cardNumber, setCardNumber] = useState('');
     const [cardName, setCardName] = useState('');
     const [expiryDate, setExpiryDate] = useState('');
@@ -12,10 +13,10 @@ const CreditCardForm = () => {
         event.preventDefault();
         let validationErrors = {};
 
-        if (!cardNumber) validationErrors.cardNumber = 'Card number is required';
-        if (!cardName) validationErrors.cardName = 'Card name is required';
-        if (!expiryDate) validationErrors.expiryDate = 'Expiry date is required';
-        if (!cvc) validationErrors.cvc = 'CVC is required';
+        if (!cardNumber) validationErrors.cardNumber = 'required';
+        if (!cardName) validationErrors.cardName = 'required';
+        if (!expiryDate) validationErrors.expiryDate = 'required';
+        if (!cvc) validationErrors.cvc = 'required';
 
         setErrors(validationErrors);
 
@@ -26,7 +27,7 @@ const CreditCardForm = () => {
 
     return (
         <div className="credit-card-form">
-            <p style={{ fontSize: '20px', fontWeight: '700', marginBottom: '10px' }}>Total : 12447284378</p>
+            <p style={{ fontSize: '20px', fontWeight: '700', marginBottom: '10px' }}>Total : ₹ {numberOfDays*pricePerDay} </p>
             <form onSubmit={handleSubmit}>
                 <div className='formdiv'>
                     <label>Card Number</label>
@@ -72,7 +73,9 @@ const CreditCardForm = () => {
                         {errors.cvc && <span className="error">{errors.cvc}</span>}
                     </div>
                 </div>
-                <button type="submit">Submit</button>
+                <Link to="/">
+                    <button type="submit">Submit</button>
+                </Link>
             </form>
         </div>
     );

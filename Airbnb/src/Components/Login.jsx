@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
+import { Grid } from "@mui/material";
 
 function Login() {
   const [formData, setFormData] = useState({
@@ -18,7 +20,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3001/loginUser", formData);
+      await axios.post("http://localhost:3001/current_user", formData);
       alert("You are logged in");
       // You can handle successful login here, such as redirecting the user
     } catch (error) {
@@ -28,7 +30,8 @@ function Login() {
   };
 
   return (
-    <div className="box">
+    <Grid container sm={12} sx={{display:'flex',justifyContent:'center',alignItems:'center', margin:'30px 0 30px 0'}}>
+    <div className="login-box">
       <h1>Login</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -47,9 +50,14 @@ function Login() {
           onChange={handleChange}
           required
         />
-        <button type="submit">Login</button>
+        <button type="submit">
+          <Link to="/" style={{textDecoration:'none',color:'white'}}>
+              Login
+          </Link>
+          </button>
       </form>
     </div>
+    </Grid>
   );
 }
 

@@ -1,5 +1,5 @@
 .sign-up-box {
-  width: 600px;
+  width: 500px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ button {
   border-radius: 35px;
   outline: none;
   border: none;
-  width: 25%;
+  width: 60;
   color: #fff;
   cursor: pointer;
   background-color: rgb(252, 43, 78);

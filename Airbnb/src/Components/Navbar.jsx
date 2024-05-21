@@ -34,10 +34,14 @@ function Navbar() {
         {showDropdown && (
           <div className="dropdown-menu">
             <div className="login">
-              <p>Login</p>
+              <Link to="/login" style={{textDecoration:'none',margin:'0',padding:'0',width:'100%'}}>
+                <p>Login</p>
+              </Link>
             </div>
             <div className="signup">
-              <p>Sign up</p>
+            <Link to="/signup" style={{textDecoration:'none',margin:'0',padding:'0',width:'100%'}}>
+                <p >Sign-up</p>
+              </Link>
             </div>
           </div>
         )}
